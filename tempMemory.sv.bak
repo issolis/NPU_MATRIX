@@ -1,0 +1,31 @@
+module Memory #(
+    parameter int SIZE = 8192
+)(
+    input  logic        clk,
+    input  logic        rst,
+    input  logic        write_en,   // 1 = escritura, 0 = lectura
+    input  logic [7:0]  addr,       // dirección
+    input  logic [7:0]  data_in,    // dato a escribir
+    output logic [7:0]  data_out    // dato leído
+);
+
+    logic [7:0] mem_array [0:SIZE-1]; // memoria de SIZE bytes
+
+    always_ff @(posedge clk or posedge rst) begin
+        if (rst) begin
+            int i;
+            for (i = 0; i < SIZE; i++) begin
+                mem_array[i] <= 8'd0;
+            end
+        end
+        else begin
+            if (write_en) begin
+                mem_array[addr] <= data_in;  // escritura
+            end
+        end
+    end
+
+    // lectura asíncrona
+    assign data_out = mem_array[addr];
+
+endmodule

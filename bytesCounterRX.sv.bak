@@ -1,0 +1,22 @@
+module bytesCounterRX (
+    input wire clk,
+    input wire rst,
+    input wire rxDone,
+    output reg [31:0] byte_count
+);
+
+reg rxDone_prev;
+
+always @(posedge clk or negedge rst) begin
+    if (!rst) begin
+        byte_count <= 0;
+        rxDone_prev <= 0;
+    end else begin
+        rxDone_prev <= rxDone;
+        if (rxDone & ~rxDone_prev) begin
+            byte_count <= byte_count + 1;
+        end
+    end
+end
+
+endmodule
