@@ -1,16 +1,16 @@
-Fitter Status : Successful - Wed Jun 11 11:28:34 2025
+Fitter Status : Successful - Wed Jun 11 15:09:08 2025
 Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 Revision Name : NPU_MATRIX
 Top-level Entity Name : TOP
 Family : Cyclone V
 Device : 5CSEMA5F31C6
 Timing Models : Final
-Logic utilization (in ALMs) : 68 / 32,070 ( < 1 % )
-Total registers : 88
-Total pins : 43 / 457 ( 9 % )
+Logic utilization (in ALMs) : 122 / 32,070 ( < 1 % )
+Total registers : 200
+Total pins : 50 / 457 ( 11 % )
 Total virtual pins : 0
-Total block memory bits : 2,048 / 4,065,280 ( < 1 % )
-Total RAM Blocks : 1 / 397 ( < 1 % )
+Total block memory bits : 655,360 / 4,065,280 ( 16 % )
+Total RAM Blocks : 80 / 397 ( 20 % )
 Total DSP Blocks : 0 / 87 ( 0 % )
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0
