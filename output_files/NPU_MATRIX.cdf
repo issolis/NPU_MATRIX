@@ -6,7 +6,7 @@ JedecChain;
 	P ActionCode(Ign)
 		Device PartName(SOCVHPS) MfrSpec(OpMask(0));
 	P ActionCode(Cfg)
-		Device PartName(5CSEMA5F31) Path("C:/Users/hp/Documents/Quartus/NPU_MATRIX/output_files/") File("NPU_MATRIX.sof") MfrSpec(OpMask(1));
+		Device PartName(5CSEMA5F31) Path("C:/Users/hp/Documents/NPU_MATRIX/output_files/") File("NPU_MATRIX.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

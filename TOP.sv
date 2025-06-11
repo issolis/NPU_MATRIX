@@ -13,7 +13,7 @@ module TOP(
 
 	
 
-    logic [7:0] txData; 
+    logic [7:0] txData;  
     logic txEn, txDone, rxDone; 
     logic [31:0] byte_count;
 	

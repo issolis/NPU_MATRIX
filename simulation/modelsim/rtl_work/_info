@@ -1,0 +1,117 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/hp/Documents/NPU_MATRIX/simulation/modelsim
+vcounter
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1749664186
+!i10b 1
+!s100 L>?C`A@<jCM:SNK;5l<<50
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IzNO=7o3GCV25DDe6<_?OM2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1749662935
+8C:/Users/hp/Documents/NPU_MATRIX/counter.sv
+FC:/Users/hp/Documents/NPU_MATRIX/counter.sv
+!i122 1
+L0 1 22
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1749664186.000000
+!s107 C:/Users/hp/Documents/NPU_MATRIX/counter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/hp/Documents/NPU_MATRIX|C:/Users/hp/Documents/NPU_MATRIX/counter.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/Users/hp/Documents/NPU_MATRIX
+Z8 tCvgOpt 0
+vNPU
+R1
+!s110 1749664187
+!i10b 1
+!s100 dH]60iI^0KB^BAJMlI13O1
+R3
+IPfH[cCRZLI[hV<fBc_=L51
+R4
+S1
+R0
+w1749662973
+8C:/Users/hp/Documents/NPU_MATRIX/NPU.sv
+FC:/Users/hp/Documents/NPU_MATRIX/NPU.sv
+!i122 2
+L0 1 210
+R5
+r1
+!s85 0
+31
+!s108 1749664187.000000
+!s107 C:/Users/hp/Documents/NPU_MATRIX/NPU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/hp/Documents/NPU_MATRIX|C:/Users/hp/Documents/NPU_MATRIX/NPU.sv|
+!i113 1
+R6
+R7
+R8
+n@n@p@u
+vprocessor
+R1
+R2
+!i10b 1
+!s100 a6FhQa8jlk_E61P4<gc0Z3
+R3
+II@=UCPzLRV5<72>13YLR_3
+R4
+S1
+R0
+w1749662844
+8C:/Users/hp/Documents/NPU_MATRIX/processor.sv
+FC:/Users/hp/Documents/NPU_MATRIX/processor.sv
+!i122 0
+L0 1 26
+R5
+r1
+!s85 0
+31
+!s108 1749664185.000000
+!s107 C:/Users/hp/Documents/NPU_MATRIX/processor.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/hp/Documents/NPU_MATRIX|C:/Users/hp/Documents/NPU_MATRIX/processor.sv|
+!i113 1
+R6
+R7
+R8
+vtb_NPU
+R1
+!s110 1749664188
+!i10b 1
+!s100 o^ZzOS6i_>MKZQF;EIQ3n0
+R3
+I>UCfm;8mn2LJU?A29n5]42
+R4
+S1
+R0
+w1749664096
+8C:/Users/hp/Documents/NPU_MATRIX/tb_NPU.sv
+FC:/Users/hp/Documents/NPU_MATRIX/tb_NPU.sv
+!i122 3
+L0 1 109
+R5
+r1
+!s85 0
+31
+!s108 1749664188.000000
+!s107 C:/Users/hp/Documents/NPU_MATRIX/tb_NPU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/hp/Documents/NPU_MATRIX|C:/Users/hp/Documents/NPU_MATRIX/tb_NPU.sv|
+!i113 1
+R6
+R7
+R8
+ntb_@n@p@u
