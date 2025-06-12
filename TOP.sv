@@ -24,16 +24,23 @@ module TOP(
 	 logic done; 
 	 logic en_mem_out; 
 	 logic [15:0] address_mem_in;
-	 
+	 logic [15:0] address_mem_out;  
 	 
 	
 	 
-    assign txEn = 0; 
+    
+	 
 	 assign we_mem = byte_count < 65536;  
 	 assign address_mem_in = we_mem ? byte_count[15:0] : addressOutCount * 2; 
-	 assign endF = addressOutCount < 8192; 
 	 assign en_mem_out = ~we_mem && addressOutCount < 8192; 
-
+	 assign txEn = ~ en_mem_out; 
+	 
+	 
+	 assign address_mem_out = en_mem_out ? addressOutCount[15:0] : {7'b0, addresstest}; 
+	  
+	 assign endF = addressOutCount < 8192; 
+	
+ 
     
     UART uart (
         .Clk(clk),
@@ -90,13 +97,15 @@ module TOP(
 
 	
 	Memory_Out mem_out (
-    .clk(clk),
+    .clk(clk), 
     .we(done),
-    .address(addressOutCount[15:0]),
+    .address(address_mem_out),
     .data(rawOut),
     .ramOut(ramOut1)
 	);
 
+	
+	// TX 
 
 	
 	

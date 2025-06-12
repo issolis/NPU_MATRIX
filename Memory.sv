@@ -40,12 +40,9 @@ module Memory
 			wren = 4'b1000; // RAM4
 	end
 	
-	logic [12:0] address1;
-	assign address1 = address_in !=0 ? address : addresstest; 
-	
 	
 	// Instancias de RAM
-	RAM1 ram1(.address(address), .clock(clk), .data(data), .wren(wren[0]), .q(ramOut[0]));
+	RAM1 ram1(.address(address),  .clock(clk), .data(data), .wren(wren[0]), .q(ramOut[0]));
 	RAM1 ram2(.address(address),  .clock(clk), .data(data), .wren(wren[1]), .q(ramOut[1]));
 	RAM1 ram3(.address(address),	.clock(clk), .data(data), .wren(wren[2]),	.q(ramOut[2]));
 	RAM1 ram4(.address(address),	.clock(clk), .data(data), .wren(wren[3]),	.q(ramOut[3]));

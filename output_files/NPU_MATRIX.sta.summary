@@ -3,131 +3,131 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1100mV 85C Model Setup 'clk'
-Slack : -7.093
-TNS   : -6283.530
+Slack : -6.711
+TNS   : -6351.389
 
 Type  : Slow 1100mV 85C Model Setup 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : -3.101
-TNS   : -51.490
+Slack : -4.202
+TNS   : -103.027
 
 Type  : Slow 1100mV 85C Model Hold 'clk'
-Slack : 0.367
+Slack : 0.305
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Hold 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : 0.613
+Slack : 0.678
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Recovery 'clk'
-Slack : -0.691
-TNS   : -2.759
+Slack : -0.726
+TNS   : -4.345
 
 Type  : Slow 1100mV 85C Model Removal 'clk'
-Slack : 0.791
+Slack : 0.851
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
 Slack : -2.174
-TNS   : -8172.714
+TNS   : -8087.975
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : -0.444
-TNS   : -14.342
+Slack : -0.442
+TNS   : -29.257
 
 Type  : Slow 1100mV 0C Model Setup 'clk'
-Slack : -6.854
-TNS   : -5837.131
+Slack : -6.489
+TNS   : -6010.968
 
 Type  : Slow 1100mV 0C Model Setup 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : -3.276
-TNS   : -54.148
+Slack : -4.515
+TNS   : -110.060
 
 Type  : Slow 1100mV 0C Model Hold 'clk'
-Slack : 0.085
+Slack : 0.029
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Hold 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : 0.587
+Slack : 0.643
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Recovery 'clk'
-Slack : -0.664
-TNS   : -2.651
+Slack : -0.711
+TNS   : -4.253
 
 Type  : Slow 1100mV 0C Model Removal 'clk'
-Slack : 0.736
+Slack : 0.817
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
 Slack : -2.174
-TNS   : -8165.048
+TNS   : -8080.578
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : -0.449
-TNS   : -14.185
+Slack : -0.452
+TNS   : -29.327
 
 Type  : Fast 1100mV 85C Model Setup 'clk'
-Slack : -4.258
-TNS   : -3023.838
+Slack : -4.046
+TNS   : -2949.789
 
 Type  : Fast 1100mV 85C Model Setup 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : -1.630
-TNS   : -26.082
+Slack : -2.325
+TNS   : -51.078
 
 Type  : Fast 1100mV 85C Model Hold 'clk'
-Slack : 0.181
+Slack : 0.177
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Hold 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : 0.340
+Slack : 0.356
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Recovery 'clk'
-Slack : 0.080
+Slack : 0.077
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Removal 'clk'
-Slack : 0.448
+Slack : 0.459
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
 Slack : -2.174
-TNS   : -8064.024
+TNS   : -7967.253
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : -0.145
-TNS   : -1.770
+Slack : -0.164
+TNS   : -4.456
 
 Type  : Fast 1100mV 0C Model Setup 'clk'
-Slack : -3.670
-TNS   : -2402.783
+Slack : -3.507
+TNS   : -2365.262
 
 Type  : Fast 1100mV 0C Model Setup 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : -1.647
-TNS   : -26.483
+Slack : -2.369
+TNS   : -53.124
 
 Type  : Fast 1100mV 0C Model Hold 'clk'
-Slack : 0.171
+Slack : 0.165
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Hold 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : 0.306
+Slack : 0.312
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Recovery 'clk'
-Slack : 0.137
+Slack : 0.127
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Removal 'clk'
-Slack : 0.408
+Slack : 0.422
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
 Slack : -2.174
-TNS   : -8068.014
+TNS   : -7971.392
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : -0.102
-TNS   : -1.048
+Slack : -0.118
+TNS   : -2.871
 
 ------------------------------------------------------------

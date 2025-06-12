@@ -4,6 +4,10 @@
 			"name" : "Top",
 			"pins" : [
 				{
+					"name" : "tx",
+					"strict" : false
+				},
+				{
 					"name" : "rxData[0]",
 					"strict" : false
 				},
@@ -153,6 +157,38 @@
 				},
 				{
 					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "addresstest[0]",
+					"strict" : false
+				},
+				{
+					"name" : "addresstest[1]",
+					"strict" : false
+				},
+				{
+					"name" : "addresstest[2]",
+					"strict" : false
+				},
+				{
+					"name" : "addresstest[3]",
+					"strict" : false
+				},
+				{
+					"name" : "addresstest[4]",
+					"strict" : false
+				},
+				{
+					"name" : "addresstest[5]",
+					"strict" : false
+				},
+				{
+					"name" : "addresstest[6]",
+					"strict" : false
+				},
+				{
+					"name" : "addresstest[7]",
 					"strict" : false
 				},
 				{

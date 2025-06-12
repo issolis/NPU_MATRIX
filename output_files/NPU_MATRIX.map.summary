@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Wed Jun 11 15:05:20 2025
+Analysis & Synthesis Status : Successful - Wed Jun 11 18:38:44 2025
 Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 Revision Name : NPU_MATRIX
 Top-level Entity Name : TOP
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 257
+Total registers : 277
 Total pins : 50
 Total virtual pins : 0
 Total block memory bits : 655,360

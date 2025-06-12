@@ -3,13 +3,21 @@ clk => clk.IN3
 rst => rst.IN3
 rx => rx.IN1
 press => ~NO_FANOUT~
+addresstest[0] => address_mem_out[0].DATAA
 addresstest[0] => Memory:mem.addresstest[0]
+addresstest[1] => address_mem_out[1].DATAA
 addresstest[1] => Memory:mem.addresstest[1]
+addresstest[2] => address_mem_out[2].DATAA
 addresstest[2] => Memory:mem.addresstest[2]
+addresstest[3] => address_mem_out[3].DATAA
 addresstest[3] => Memory:mem.addresstest[3]
+addresstest[4] => address_mem_out[4].DATAA
 addresstest[4] => Memory:mem.addresstest[4]
+addresstest[5] => address_mem_out[5].DATAA
 addresstest[5] => Memory:mem.addresstest[5]
+addresstest[6] => address_mem_out[6].DATAA
 addresstest[6] => Memory:mem.addresstest[6]
+addresstest[7] => address_mem_out[7].DATAA
 addresstest[7] => Memory:mem.addresstest[7]
 tx <= UART:uart.Tx
 rxData[0] <= UART:uart.RxData
@@ -48,7 +56,7 @@ seg3[3] <= sevenSeg:display3.port1
 seg3[4] <= sevenSeg:display3.port1
 seg3[5] <= sevenSeg:display3.port1
 seg3[6] <= sevenSeg:display3.port1
-endF <= LessThan1.DB_MAX_OUTPUT_PORT_TYPE
+endF <= LessThan2.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |TOP|UART:uart
