@@ -1,5 +1,5 @@
 Analysis & Synthesis report for NPU_MATRIX
-Wed Jun 11 18:38:44 2025
+Mon Jun 16 01:30:07 2025
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -17,64 +17,62 @@ Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
   9. Analysis & Synthesis IP Cores Summary
  10. State Machine - |TOP|UART:uart|UART_rs232_rx:I_RS232RX|State
  11. Registers Removed During Synthesis
- 12. Removed Registers Triggering Further Register Optimizations
- 13. General Register Statistics
- 14. Inverted Register Statistics
- 15. Multiplexer Restructuring Statistics (Restructuring Performed)
- 16. Source assignments for Memory:mem|RAM1:ram1|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
- 17. Source assignments for Memory:mem|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
- 18. Source assignments for Memory:mem|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
- 19. Source assignments for Memory:mem|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
- 20. Source assignments for Memory_Out:mem_out|RAM1:ram1|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
- 21. Source assignments for Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
- 22. Source assignments for Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
- 23. Source assignments for Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
- 24. Parameter Settings for User Entity Instance: UART:uart|UART_rs232_rx:I_RS232RX
- 25. Parameter Settings for User Entity Instance: UART:uart|UART_rs232_tx:I_RS232TX
- 26. Parameter Settings for User Entity Instance: bytesCounterRX:counterRX
- 27. Parameter Settings for User Entity Instance: Memory:mem|RAM1:ram1|altsyncram:altsyncram_component
- 28. Parameter Settings for User Entity Instance: Memory:mem|RAM1:ram2|altsyncram:altsyncram_component
- 29. Parameter Settings for User Entity Instance: Memory:mem|RAM1:ram3|altsyncram:altsyncram_component
- 30. Parameter Settings for User Entity Instance: Memory:mem|RAM1:ram4|altsyncram:altsyncram_component
- 31. Parameter Settings for User Entity Instance: NPU:npu|counter:counter_inst
- 32. Parameter Settings for User Entity Instance: NPU:npu|processor:p00
- 33. Parameter Settings for User Entity Instance: NPU:npu|processor:p10
- 34. Parameter Settings for User Entity Instance: NPU:npu|processor:p20
- 35. Parameter Settings for User Entity Instance: NPU:npu|processor:p30
- 36. Parameter Settings for User Entity Instance: NPU:npu|processor:p01
- 37. Parameter Settings for User Entity Instance: NPU:npu|processor:p11
- 38. Parameter Settings for User Entity Instance: NPU:npu|processor:p21
- 39. Parameter Settings for User Entity Instance: NPU:npu|processor:p31
- 40. Parameter Settings for User Entity Instance: NPU:npu|processor:p02
- 41. Parameter Settings for User Entity Instance: NPU:npu|processor:p12
- 42. Parameter Settings for User Entity Instance: NPU:npu|processor:p22
- 43. Parameter Settings for User Entity Instance: NPU:npu|processor:p32
- 44. Parameter Settings for User Entity Instance: NPU:npu|processor:p03
- 45. Parameter Settings for User Entity Instance: NPU:npu|processor:p13
- 46. Parameter Settings for User Entity Instance: NPU:npu|processor:p23
- 47. Parameter Settings for User Entity Instance: NPU:npu|processor:p33
- 48. Parameter Settings for User Entity Instance: bytesCounterRX:address_out
- 49. Parameter Settings for User Entity Instance: Memory_Out:mem_out|RAM1:ram1|altsyncram:altsyncram_component
- 50. Parameter Settings for User Entity Instance: Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component
- 51. Parameter Settings for User Entity Instance: Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component
- 52. Parameter Settings for User Entity Instance: Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component
+ 12. General Register Statistics
+ 13. Inverted Register Statistics
+ 14. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 15. Source assignments for Memory:mem|RAM1:ram1|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
+ 16. Source assignments for Memory:mem|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
+ 17. Source assignments for Memory:mem|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
+ 18. Source assignments for Memory:mem|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
+ 19. Source assignments for Memory_Out:mem_out|RAM1:ram1|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
+ 20. Source assignments for Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
+ 21. Source assignments for Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
+ 22. Source assignments for Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
+ 23. Parameter Settings for User Entity Instance: UART:uart|UART_rs232_rx:I_RS232RX
+ 24. Parameter Settings for User Entity Instance: UART:uart|UART_rs232_tx:I_RS232TX
+ 25. Parameter Settings for User Entity Instance: bytesCounterRX:counterRX
+ 26. Parameter Settings for User Entity Instance: Memory:mem|RAM1:ram1|altsyncram:altsyncram_component
+ 27. Parameter Settings for User Entity Instance: Memory:mem|RAM1:ram2|altsyncram:altsyncram_component
+ 28. Parameter Settings for User Entity Instance: Memory:mem|RAM1:ram3|altsyncram:altsyncram_component
+ 29. Parameter Settings for User Entity Instance: Memory:mem|RAM1:ram4|altsyncram:altsyncram_component
+ 30. Parameter Settings for User Entity Instance: NPU:npu|counter:counter_inst
+ 31. Parameter Settings for User Entity Instance: NPU:npu|processor:p00
+ 32. Parameter Settings for User Entity Instance: NPU:npu|processor:p10
+ 33. Parameter Settings for User Entity Instance: NPU:npu|processor:p20
+ 34. Parameter Settings for User Entity Instance: NPU:npu|processor:p30
+ 35. Parameter Settings for User Entity Instance: NPU:npu|processor:p01
+ 36. Parameter Settings for User Entity Instance: NPU:npu|processor:p11
+ 37. Parameter Settings for User Entity Instance: NPU:npu|processor:p21
+ 38. Parameter Settings for User Entity Instance: NPU:npu|processor:p31
+ 39. Parameter Settings for User Entity Instance: NPU:npu|processor:p02
+ 40. Parameter Settings for User Entity Instance: NPU:npu|processor:p12
+ 41. Parameter Settings for User Entity Instance: NPU:npu|processor:p22
+ 42. Parameter Settings for User Entity Instance: NPU:npu|processor:p32
+ 43. Parameter Settings for User Entity Instance: NPU:npu|processor:p03
+ 44. Parameter Settings for User Entity Instance: NPU:npu|processor:p13
+ 45. Parameter Settings for User Entity Instance: NPU:npu|processor:p23
+ 46. Parameter Settings for User Entity Instance: NPU:npu|processor:p33
+ 47. Parameter Settings for User Entity Instance: bytesCounterRX:address_out
+ 48. Parameter Settings for User Entity Instance: Memory_Out:mem_out|RAM1:ram1|altsyncram:altsyncram_component
+ 49. Parameter Settings for User Entity Instance: Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component
+ 50. Parameter Settings for User Entity Instance: Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component
+ 51. Parameter Settings for User Entity Instance: Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component
+ 52. Parameter Settings for User Entity Instance: bytesCounterRX:uart_out_counter
  53. altsyncram Parameter Settings by Entity Instance
- 54. Port Connectivity Checks: "Memory_Out:mem_out"
- 55. Port Connectivity Checks: "NPU:npu|processor:p33"
- 56. Port Connectivity Checks: "NPU:npu|processor:p23"
- 57. Port Connectivity Checks: "NPU:npu|processor:p13"
- 58. Port Connectivity Checks: "NPU:npu|processor:p03"
- 59. Port Connectivity Checks: "NPU:npu|processor:p02"
- 60. Port Connectivity Checks: "NPU:npu|processor:p01"
- 61. Port Connectivity Checks: "NPU:npu|processor:p00"
- 62. Port Connectivity Checks: "NPU:npu"
- 63. Port Connectivity Checks: "UART:uart|UART_BaudRate_generator:I_BAUDGEN"
- 64. Port Connectivity Checks: "UART:uart|UART_rs232_rx:I_RS232RX"
- 65. Port Connectivity Checks: "UART:uart"
- 66. Post-Synthesis Netlist Statistics for Top Partition
- 67. Elapsed Time Per Partition
- 68. Analysis & Synthesis Messages
- 69. Analysis & Synthesis Suppressed Messages
+ 54. Port Connectivity Checks: "NPU:npu|processor:p33"
+ 55. Port Connectivity Checks: "NPU:npu|processor:p23"
+ 56. Port Connectivity Checks: "NPU:npu|processor:p13"
+ 57. Port Connectivity Checks: "NPU:npu|processor:p03"
+ 58. Port Connectivity Checks: "NPU:npu|processor:p02"
+ 59. Port Connectivity Checks: "NPU:npu|processor:p01"
+ 60. Port Connectivity Checks: "NPU:npu|processor:p00"
+ 61. Port Connectivity Checks: "NPU:npu"
+ 62. Port Connectivity Checks: "UART:uart|UART_BaudRate_generator:I_BAUDGEN"
+ 63. Port Connectivity Checks: "UART:uart|UART_rs232_rx:I_RS232RX"
+ 64. Post-Synthesis Netlist Statistics for Top Partition
+ 65. Elapsed Time Per Partition
+ 66. Analysis & Synthesis Messages
+ 67. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -101,16 +99,16 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +---------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed Jun 11 18:38:44 2025          ;
+; Analysis & Synthesis Status     ; Successful - Mon Jun 16 01:30:07 2025          ;
 ; Quartus Prime Version           ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                   ; NPU_MATRIX                                     ;
 ; Top-level Entity Name           ; TOP                                            ;
 ; Family                          ; Cyclone V                                      ;
 ; Logic utilization (in ALMs)     ; N/A                                            ;
-; Total registers                 ; 277                                            ;
+; Total registers                 ; 694                                            ;
 ; Total pins                      ; 50                                             ;
 ; Total virtual pins              ; 0                                              ;
-; Total block memory bits         ; 655,360                                        ;
+; Total block memory bits         ; 1,048,576                                      ;
 ; Total DSP Blocks                ; 0                                              ;
 ; Total HSSI RX PCSs              ; 0                                              ;
 ; Total HSSI PMA RX Deserializers ; 0                                              ;
@@ -129,6 +127,8 @@ https://fpgasoftware.intel.com/eula.
 ; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
 ; Top-level entity name                                                           ; TOP                ; NPU_MATRIX         ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Maximum processors allowed for parallel compilation                             ; 16                 ;                    ;
+; Verilog Show LMF Mapping Messages                                               ; Off                ;                    ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
 ; Enable compact report table                                                     ; Off                ; Off                ;
@@ -221,7 +221,13 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-16        ;   0.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processor 3            ;   0.0%      ;
+;     Processor 4            ;   0.0%      ;
+;     Processor 5            ;   0.0%      ;
+;     Processor 6            ;   0.0%      ;
+;     Processor 7            ;   0.0%      ;
+;     Processors 8-16        ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -261,27 +267,27 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 169       ;
+; Estimate of Logic utilization (ALMs needed) ; 390       ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 260       ;
-;     -- 7 input functions                    ; 1         ;
-;     -- 6 input functions                    ; 36        ;
-;     -- 5 input functions                    ; 27        ;
-;     -- 4 input functions                    ; 49        ;
-;     -- <=3 input functions                  ; 147       ;
+; Combinational ALUT usage for logic          ; 469       ;
+;     -- 7 input functions                    ; 3         ;
+;     -- 6 input functions                    ; 56        ;
+;     -- 5 input functions                    ; 25        ;
+;     -- 4 input functions                    ; 47        ;
+;     -- <=3 input functions                  ; 338       ;
 ;                                             ;           ;
-; Dedicated logic registers                   ; 277       ;
+; Dedicated logic registers                   ; 694       ;
 ;                                             ;           ;
 ; I/O pins                                    ; 50        ;
 ; Total MLAB memory bits                      ; 0         ;
-; Total block memory bits                     ; 655360    ;
+; Total block memory bits                     ; 1048576   ;
 ;                                             ;           ;
 ; Total DSP Blocks                            ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 320       ;
-; Total fan-out                               ; 3242      ;
-; Average fan-out                             ; 4.52      ;
+; Maximum fan-out                             ; 785       ;
+; Total fan-out                               ; 6128      ;
+; Average fan-out                             ; 4.41      ;
 +---------------------------------------------+-----------+
 
 
@@ -290,8 +296,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------+-------------------------+--------------+
 ; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                              ; Entity Name             ; Library Name ;
 +----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------+-------------------------+--------------+
-; |TOP                                         ; 260 (28)            ; 277 (0)                   ; 655360            ; 0          ; 50   ; 0            ; |TOP                                                                                             ; TOP                     ; work         ;
-;    |Memory:mem|                              ; 5 (5)               ; 16 (16)                   ; 524288            ; 0          ; 0    ; 0            ; |TOP|Memory:mem                                                                                  ; Memory                  ; work         ;
+; |TOP                                         ; 469 (40)            ; 694 (0)                   ; 1048576           ; 0          ; 50   ; 0            ; |TOP                                                                                             ; TOP                     ; work         ;
+;    |Memory:mem|                              ; 6 (6)               ; 16 (16)                   ; 524288            ; 0          ; 0    ; 0            ; |TOP|Memory:mem                                                                                  ; Memory                  ; work         ;
 ;       |RAM1:ram1|                            ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory:mem|RAM1:ram1                                                                        ; RAM1                    ; work         ;
 ;          |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory:mem|RAM1:ram1|altsyncram:altsyncram_component                                        ; altsyncram              ; work         ;
 ;             |altsyncram_adl1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory:mem|RAM1:ram1|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated         ; altsyncram_adl1         ; work         ;
@@ -304,22 +310,44 @@ https://fpgasoftware.intel.com/eula.
 ;       |RAM1:ram4|                            ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory:mem|RAM1:ram4                                                                        ; RAM1                    ; work         ;
 ;          |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory:mem|RAM1:ram4|altsyncram:altsyncram_component                                        ; altsyncram              ; work         ;
 ;             |altsyncram_adl1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory:mem|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated         ; altsyncram_adl1         ; work         ;
-;    |Memory_Out:mem_out|                      ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory_Out:mem_out                                                                          ; Memory_Out              ; work         ;
+;    |Memory_Out:mem_out|                      ; 0 (0)               ; 0 (0)                     ; 524288            ; 0          ; 0    ; 0            ; |TOP|Memory_Out:mem_out                                                                          ; Memory_Out              ; work         ;
 ;       |RAM1:ram1|                            ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory_Out:mem_out|RAM1:ram1                                                                ; RAM1                    ; work         ;
 ;          |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory_Out:mem_out|RAM1:ram1|altsyncram:altsyncram_component                                ; altsyncram              ; work         ;
 ;             |altsyncram_adl1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory_Out:mem_out|RAM1:ram1|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated ; altsyncram_adl1         ; work         ;
-;    |NPU:npu|                                 ; 54 (2)              ; 132 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu                                                                                     ; NPU                     ; work         ;
+;       |RAM1:ram2|                            ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory_Out:mem_out|RAM1:ram2                                                                ; RAM1                    ; work         ;
+;          |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component                                ; altsyncram              ; work         ;
+;             |altsyncram_adl1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated ; altsyncram_adl1         ; work         ;
+;       |RAM1:ram3|                            ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory_Out:mem_out|RAM1:ram3                                                                ; RAM1                    ; work         ;
+;          |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component                                ; altsyncram              ; work         ;
+;             |altsyncram_adl1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated ; altsyncram_adl1         ; work         ;
+;       |RAM1:ram4|                            ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory_Out:mem_out|RAM1:ram4                                                                ; RAM1                    ; work         ;
+;          |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component                                ; altsyncram              ; work         ;
+;             |altsyncram_adl1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated ; altsyncram_adl1         ; work         ;
+;    |NPU:npu|                                 ; 201 (5)             ; 516 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu                                                                                     ; NPU                     ; work         ;
 ;       |counter:counter_inst|                 ; 4 (4)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|counter:counter_inst                                                                ; counter                 ; work         ;
 ;       |processor:p00|                        ; 0 (0)               ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p00                                                                       ; processor               ; work         ;
+;       |processor:p01|                        ; 0 (0)               ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p01                                                                       ; processor               ; work         ;
+;       |processor:p02|                        ; 0 (0)               ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p02                                                                       ; processor               ; work         ;
+;       |processor:p03|                        ; 0 (0)               ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p03                                                                       ; processor               ; work         ;
 ;       |processor:p10|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p10                                                                       ; processor               ; work         ;
+;       |processor:p11|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p11                                                                       ; processor               ; work         ;
+;       |processor:p12|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p12                                                                       ; processor               ; work         ;
+;       |processor:p13|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p13                                                                       ; processor               ; work         ;
 ;       |processor:p20|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p20                                                                       ; processor               ; work         ;
+;       |processor:p21|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p21                                                                       ; processor               ; work         ;
+;       |processor:p22|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p22                                                                       ; processor               ; work         ;
+;       |processor:p23|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p23                                                                       ; processor               ; work         ;
 ;       |processor:p30|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p30                                                                       ; processor               ; work         ;
-;    |UART:uart|                               ; 62 (0)              ; 63 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |TOP|UART:uart                                                                                   ; UART                    ; work         ;
+;       |processor:p31|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p31                                                                       ; processor               ; work         ;
+;       |processor:p32|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p32                                                                       ; processor               ; work         ;
+;       |processor:p33|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p33                                                                       ; processor               ; work         ;
+;    |UART:uart|                               ; 77 (0)              ; 63 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |TOP|UART:uart                                                                                   ; UART                    ; work         ;
 ;       |UART_BaudRate_generator:I_BAUDGEN|    ; 21 (21)             ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|UART:uart|UART_BaudRate_generator:I_BAUDGEN                                                 ; UART_BaudRate_generator ; work         ;
 ;       |UART_rs232_rx:I_RS232RX|              ; 17 (17)             ; 27 (27)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|UART:uart|UART_rs232_rx:I_RS232RX                                                           ; UART_rs232_rx           ; work         ;
-;       |UART_rs232_tx:I_RS232TX|              ; 24 (24)             ; 20 (20)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|UART:uart|UART_rs232_tx:I_RS232TX                                                           ; UART_rs232_tx           ; work         ;
+;       |UART_rs232_tx:I_RS232TX|              ; 39 (39)             ; 20 (20)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|UART:uart|UART_rs232_tx:I_RS232TX                                                           ; UART_rs232_tx           ; work         ;
 ;    |bytesCounterRX:address_out|              ; 41 (41)             ; 33 (33)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|bytesCounterRX:address_out                                                                  ; bytesCounterRX          ; work         ;
 ;    |bytesCounterRX:counterRX|                ; 42 (42)             ; 33 (33)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|bytesCounterRX:counterRX                                                                    ; bytesCounterRX          ; work         ;
+;    |bytesCounterRX:uart_out_counter|         ; 34 (34)             ; 33 (33)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|bytesCounterRX:uart_out_counter                                                             ; bytesCounterRX          ; work         ;
 ;    |sevenSeg:display0|                       ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TOP|sevenSeg:display0                                                                           ; sevenSeg                ; work         ;
 ;    |sevenSeg:display1|                       ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TOP|sevenSeg:display1                                                                           ; sevenSeg                ; work         ;
 ;    |sevenSeg:display2|                       ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TOP|sevenSeg:display2                                                                           ; sevenSeg                ; work         ;
@@ -338,6 +366,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Memory:mem|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|ALTSYNCRAM         ; AUTO ; Single Port ; 8192         ; 16           ; --           ; --           ; 131072 ; None ;
 ; Memory:mem|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|ALTSYNCRAM         ; AUTO ; Single Port ; 8192         ; 16           ; --           ; --           ; 131072 ; None ;
 ; Memory_Out:mem_out|RAM1:ram1|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|ALTSYNCRAM ; AUTO ; Single Port ; 8192         ; 16           ; --           ; --           ; 131072 ; None ;
+; Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|ALTSYNCRAM ; AUTO ; Single Port ; 8192         ; 16           ; --           ; --           ; 131072 ; None ;
+; Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|ALTSYNCRAM ; AUTO ; Single Port ; 8192         ; 16           ; --           ; --           ; 131072 ; None ;
+; Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|ALTSYNCRAM ; AUTO ; Single Port ; 8192         ; 16           ; --           ; --           ; 131072 ; None ;
 +--------------------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+--------+------+
 
 
@@ -368,584 +399,208 @@ Encoding Type:  One-Hot
 +------------+-------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                  ;
-+--------------------------------------------+----------------------------------------+
-; Register name                              ; Reason for Removal                     ;
-+--------------------------------------------+----------------------------------------+
-; NPU:npu|processor:p33|sum_out[0..15]       ; Lost fanout                            ;
-; NPU:npu|processor:p23|sum_out[0..15]       ; Lost fanout                            ;
-; NPU:npu|processor:p13|sum_out[0..15]       ; Lost fanout                            ;
-; NPU:npu|processor:p03|sum_out[0..15]       ; Lost fanout                            ;
-; NPU:npu|processor:p03|self_value[15]       ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_out[15]         ; Lost fanout                            ;
-; NPU:npu|processor:p03|self_value[14]       ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_out[14]         ; Lost fanout                            ;
-; NPU:npu|processor:p03|self_value[13]       ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_out[13]         ; Lost fanout                            ;
-; NPU:npu|processor:p03|self_value[12]       ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_out[12]         ; Lost fanout                            ;
-; NPU:npu|processor:p03|self_value[11]       ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_out[11]         ; Lost fanout                            ;
-; NPU:npu|processor:p03|self_value[10]       ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_out[10]         ; Lost fanout                            ;
-; NPU:npu|processor:p03|self_value[9]        ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_out[9]          ; Lost fanout                            ;
-; NPU:npu|processor:p03|self_value[8]        ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_out[8]          ; Lost fanout                            ;
-; NPU:npu|processor:p03|self_value[7]        ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_out[7]          ; Lost fanout                            ;
-; NPU:npu|processor:p03|self_value[6]        ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_out[6]          ; Lost fanout                            ;
-; NPU:npu|processor:p03|self_value[5]        ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_out[5]          ; Lost fanout                            ;
-; NPU:npu|processor:p03|self_value[4]        ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_out[4]          ; Lost fanout                            ;
-; NPU:npu|processor:p03|self_value[3]        ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_out[3]          ; Lost fanout                            ;
-; NPU:npu|processor:p03|self_value[2]        ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_out[2]          ; Lost fanout                            ;
-; NPU:npu|processor:p03|self_value[1]        ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_out[1]          ; Lost fanout                            ;
-; NPU:npu|processor:p03|self_value[0]        ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_out[0]          ; Lost fanout                            ;
-; NPU:npu|processor:p13|self_value[15]       ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_out[15]         ; Lost fanout                            ;
-; NPU:npu|processor:p13|self_value[14]       ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_out[14]         ; Lost fanout                            ;
-; NPU:npu|processor:p13|self_value[13]       ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_out[13]         ; Lost fanout                            ;
-; NPU:npu|processor:p13|self_value[12]       ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_out[12]         ; Lost fanout                            ;
-; NPU:npu|processor:p13|self_value[11]       ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_out[11]         ; Lost fanout                            ;
-; NPU:npu|processor:p13|self_value[10]       ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_out[10]         ; Lost fanout                            ;
-; NPU:npu|processor:p13|self_value[9]        ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_out[9]          ; Lost fanout                            ;
-; NPU:npu|processor:p13|self_value[8]        ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_out[8]          ; Lost fanout                            ;
-; NPU:npu|processor:p13|self_value[7]        ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_out[7]          ; Lost fanout                            ;
-; NPU:npu|processor:p13|self_value[6]        ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_out[6]          ; Lost fanout                            ;
-; NPU:npu|processor:p13|self_value[5]        ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_out[5]          ; Lost fanout                            ;
-; NPU:npu|processor:p13|self_value[4]        ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_out[4]          ; Lost fanout                            ;
-; NPU:npu|processor:p13|self_value[3]        ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_out[3]          ; Lost fanout                            ;
-; NPU:npu|processor:p13|self_value[2]        ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_out[2]          ; Lost fanout                            ;
-; NPU:npu|processor:p13|self_value[1]        ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_out[1]          ; Lost fanout                            ;
-; NPU:npu|processor:p13|self_value[0]        ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_out[0]          ; Lost fanout                            ;
-; NPU:npu|processor:p23|self_value[15]       ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_out[15]         ; Lost fanout                            ;
-; NPU:npu|processor:p23|self_value[14]       ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_out[14]         ; Lost fanout                            ;
-; NPU:npu|processor:p23|self_value[13]       ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_out[13]         ; Lost fanout                            ;
-; NPU:npu|processor:p23|self_value[12]       ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_out[12]         ; Lost fanout                            ;
-; NPU:npu|processor:p23|self_value[11]       ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_out[11]         ; Lost fanout                            ;
-; NPU:npu|processor:p23|self_value[10]       ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_out[10]         ; Lost fanout                            ;
-; NPU:npu|processor:p23|self_value[9]        ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_out[9]          ; Lost fanout                            ;
-; NPU:npu|processor:p23|self_value[8]        ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_out[8]          ; Lost fanout                            ;
-; NPU:npu|processor:p23|self_value[7]        ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_out[7]          ; Lost fanout                            ;
-; NPU:npu|processor:p23|self_value[6]        ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_out[6]          ; Lost fanout                            ;
-; NPU:npu|processor:p23|self_value[5]        ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_out[5]          ; Lost fanout                            ;
-; NPU:npu|processor:p23|self_value[4]        ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_out[4]          ; Lost fanout                            ;
-; NPU:npu|processor:p23|self_value[3]        ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_out[3]          ; Lost fanout                            ;
-; NPU:npu|processor:p23|self_value[2]        ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_out[2]          ; Lost fanout                            ;
-; NPU:npu|processor:p23|self_value[1]        ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_out[1]          ; Lost fanout                            ;
-; NPU:npu|processor:p23|self_value[0]        ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_out[0]          ; Lost fanout                            ;
-; NPU:npu|processor:p33|self_value[15]       ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_out[15]         ; Lost fanout                            ;
-; NPU:npu|processor:p33|self_value[14]       ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_out[14]         ; Lost fanout                            ;
-; NPU:npu|processor:p33|self_value[13]       ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_out[13]         ; Lost fanout                            ;
-; NPU:npu|processor:p33|self_value[12]       ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_out[12]         ; Lost fanout                            ;
-; NPU:npu|processor:p33|self_value[11]       ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_out[11]         ; Lost fanout                            ;
-; NPU:npu|processor:p33|self_value[10]       ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_out[10]         ; Lost fanout                            ;
-; NPU:npu|processor:p33|self_value[9]        ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_out[9]          ; Lost fanout                            ;
-; NPU:npu|processor:p33|self_value[8]        ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_out[8]          ; Lost fanout                            ;
-; NPU:npu|processor:p33|self_value[7]        ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_out[7]          ; Lost fanout                            ;
-; NPU:npu|processor:p33|self_value[6]        ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_out[6]          ; Lost fanout                            ;
-; NPU:npu|processor:p33|self_value[5]        ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_out[5]          ; Lost fanout                            ;
-; NPU:npu|processor:p33|self_value[4]        ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_out[4]          ; Lost fanout                            ;
-; NPU:npu|processor:p33|self_value[3]        ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_out[3]          ; Lost fanout                            ;
-; NPU:npu|processor:p33|self_value[2]        ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_out[2]          ; Lost fanout                            ;
-; NPU:npu|processor:p33|self_value[1]        ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_out[1]          ; Lost fanout                            ;
-; NPU:npu|processor:p33|self_value[0]        ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_out[0]          ; Lost fanout                            ;
-; NPU:npu|processor:p32|sum_out[0..15]       ; Lost fanout                            ;
-; NPU:npu|processor:p22|sum_out[0..15]       ; Lost fanout                            ;
-; NPU:npu|processor:p12|sum_out[0..15]       ; Lost fanout                            ;
-; NPU:npu|processor:p02|sum_out[0..15]       ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_value[15]       ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_out[15]         ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_value[14]       ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_out[14]         ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_value[13]       ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_out[13]         ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_value[12]       ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_out[12]         ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_value[11]       ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_out[11]         ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_value[10]       ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_out[10]         ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_value[9]        ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_out[9]          ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_value[8]        ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_out[8]          ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_value[7]        ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_out[7]          ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_value[6]        ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_out[6]          ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_value[5]        ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_out[5]          ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_value[4]        ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_out[4]          ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_value[3]        ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_out[3]          ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_value[2]        ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_out[2]          ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_value[1]        ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_out[1]          ; Lost fanout                            ;
-; NPU:npu|processor:p02|self_value[0]        ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_out[0]          ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_value[15]       ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_out[15]         ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_value[14]       ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_out[14]         ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_value[13]       ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_out[13]         ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_value[12]       ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_out[12]         ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_value[11]       ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_out[11]         ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_value[10]       ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_out[10]         ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_value[9]        ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_out[9]          ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_value[8]        ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_out[8]          ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_value[7]        ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_out[7]          ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_value[6]        ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_out[6]          ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_value[5]        ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_out[5]          ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_value[4]        ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_out[4]          ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_value[3]        ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_out[3]          ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_value[2]        ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_out[2]          ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_value[1]        ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_out[1]          ; Lost fanout                            ;
-; NPU:npu|processor:p12|self_value[0]        ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_out[0]          ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_value[15]       ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_out[15]         ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_value[14]       ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_out[14]         ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_value[13]       ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_out[13]         ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_value[12]       ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_out[12]         ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_value[11]       ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_out[11]         ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_value[10]       ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_out[10]         ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_value[9]        ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_out[9]          ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_value[8]        ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_out[8]          ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_value[7]        ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_out[7]          ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_value[6]        ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_out[6]          ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_value[5]        ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_out[5]          ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_value[4]        ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_out[4]          ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_value[3]        ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_out[3]          ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_value[2]        ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_out[2]          ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_value[1]        ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_out[1]          ; Lost fanout                            ;
-; NPU:npu|processor:p22|self_value[0]        ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_out[0]          ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_value[15]       ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_out[15]         ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_value[14]       ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_out[14]         ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_value[13]       ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_out[13]         ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_value[12]       ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_out[12]         ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_value[11]       ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_out[11]         ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_value[10]       ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_out[10]         ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_value[9]        ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_out[9]          ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_value[8]        ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_out[8]          ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_value[7]        ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_out[7]          ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_value[6]        ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_out[6]          ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_value[5]        ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_out[5]          ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_value[4]        ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_out[4]          ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_value[3]        ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_out[3]          ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_value[2]        ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_out[2]          ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_value[1]        ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_out[1]          ; Lost fanout                            ;
-; NPU:npu|processor:p32|self_value[0]        ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_out[0]          ; Lost fanout                            ;
-; NPU:npu|processor:p31|sum_out[0..15]       ; Lost fanout                            ;
-; NPU:npu|processor:p21|sum_out[0..15]       ; Lost fanout                            ;
-; NPU:npu|processor:p11|sum_out[0..15]       ; Lost fanout                            ;
-; NPU:npu|processor:p01|sum_out[0..15]       ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_value[15]       ; Lost fanout                            ;
-; NPU:npu|processor:p00|self_out[15]         ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_value[14]       ; Lost fanout                            ;
-; NPU:npu|processor:p00|self_out[14]         ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_value[13]       ; Lost fanout                            ;
-; NPU:npu|processor:p00|self_out[13]         ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_value[12]       ; Lost fanout                            ;
-; NPU:npu|processor:p00|self_out[12]         ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_value[11]       ; Lost fanout                            ;
-; NPU:npu|processor:p00|self_out[11]         ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_value[10]       ; Lost fanout                            ;
-; NPU:npu|processor:p00|self_out[10]         ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_value[9]        ; Lost fanout                            ;
-; NPU:npu|processor:p00|self_out[9]          ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_value[8]        ; Lost fanout                            ;
-; NPU:npu|processor:p00|self_out[8]          ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_value[7]        ; Lost fanout                            ;
-; NPU:npu|processor:p00|self_out[7]          ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_value[6]        ; Lost fanout                            ;
-; NPU:npu|processor:p00|self_out[6]          ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_value[5]        ; Lost fanout                            ;
-; NPU:npu|processor:p00|self_out[5]          ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_value[4]        ; Lost fanout                            ;
-; NPU:npu|processor:p00|self_out[4]          ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_value[3]        ; Lost fanout                            ;
-; NPU:npu|processor:p00|self_out[3]          ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_value[2]        ; Lost fanout                            ;
-; NPU:npu|processor:p00|self_out[2]          ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_value[1]        ; Lost fanout                            ;
-; NPU:npu|processor:p00|self_out[1]          ; Lost fanout                            ;
-; NPU:npu|processor:p01|self_value[0]        ; Lost fanout                            ;
-; NPU:npu|processor:p00|self_out[0]          ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_value[15]       ; Lost fanout                            ;
-; NPU:npu|processor:p10|self_out[15]         ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_value[14]       ; Lost fanout                            ;
-; NPU:npu|processor:p10|self_out[14]         ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_value[13]       ; Lost fanout                            ;
-; NPU:npu|processor:p10|self_out[13]         ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_value[12]       ; Lost fanout                            ;
-; NPU:npu|processor:p10|self_out[12]         ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_value[11]       ; Lost fanout                            ;
-; NPU:npu|processor:p10|self_out[11]         ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_value[10]       ; Lost fanout                            ;
-; NPU:npu|processor:p10|self_out[10]         ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_value[9]        ; Lost fanout                            ;
-; NPU:npu|processor:p10|self_out[9]          ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_value[8]        ; Lost fanout                            ;
-; NPU:npu|processor:p10|self_out[8]          ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_value[7]        ; Lost fanout                            ;
-; NPU:npu|processor:p10|self_out[7]          ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_value[6]        ; Lost fanout                            ;
-; NPU:npu|processor:p10|self_out[6]          ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_value[5]        ; Lost fanout                            ;
-; NPU:npu|processor:p10|self_out[5]          ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_value[4]        ; Lost fanout                            ;
-; NPU:npu|processor:p10|self_out[4]          ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_value[3]        ; Lost fanout                            ;
-; NPU:npu|processor:p10|self_out[3]          ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_value[2]        ; Lost fanout                            ;
-; NPU:npu|processor:p10|self_out[2]          ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_value[1]        ; Lost fanout                            ;
-; NPU:npu|processor:p10|self_out[1]          ; Lost fanout                            ;
-; NPU:npu|processor:p11|self_value[0]        ; Lost fanout                            ;
-; NPU:npu|processor:p10|self_out[0]          ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_value[15]       ; Lost fanout                            ;
-; NPU:npu|processor:p20|self_out[15]         ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_value[14]       ; Lost fanout                            ;
-; NPU:npu|processor:p20|self_out[14]         ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_value[13]       ; Lost fanout                            ;
-; NPU:npu|processor:p20|self_out[13]         ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_value[12]       ; Lost fanout                            ;
-; NPU:npu|processor:p20|self_out[12]         ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_value[11]       ; Lost fanout                            ;
-; NPU:npu|processor:p20|self_out[11]         ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_value[10]       ; Lost fanout                            ;
-; NPU:npu|processor:p20|self_out[10]         ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_value[9]        ; Lost fanout                            ;
-; NPU:npu|processor:p20|self_out[9]          ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_value[8]        ; Lost fanout                            ;
-; NPU:npu|processor:p20|self_out[8]          ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_value[7]        ; Lost fanout                            ;
-; NPU:npu|processor:p20|self_out[7]          ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_value[6]        ; Lost fanout                            ;
-; NPU:npu|processor:p20|self_out[6]          ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_value[5]        ; Lost fanout                            ;
-; NPU:npu|processor:p20|self_out[5]          ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_value[4]        ; Lost fanout                            ;
-; NPU:npu|processor:p20|self_out[4]          ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_value[3]        ; Lost fanout                            ;
-; NPU:npu|processor:p20|self_out[3]          ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_value[2]        ; Lost fanout                            ;
-; NPU:npu|processor:p20|self_out[2]          ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_value[1]        ; Lost fanout                            ;
-; NPU:npu|processor:p20|self_out[1]          ; Lost fanout                            ;
-; NPU:npu|processor:p21|self_value[0]        ; Lost fanout                            ;
-; NPU:npu|processor:p20|self_out[0]          ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_value[15]       ; Lost fanout                            ;
-; NPU:npu|processor:p30|self_out[15]         ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_value[14]       ; Lost fanout                            ;
-; NPU:npu|processor:p30|self_out[14]         ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_value[13]       ; Lost fanout                            ;
-; NPU:npu|processor:p30|self_out[13]         ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_value[12]       ; Lost fanout                            ;
-; NPU:npu|processor:p30|self_out[12]         ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_value[11]       ; Lost fanout                            ;
-; NPU:npu|processor:p30|self_out[11]         ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_value[10]       ; Lost fanout                            ;
-; NPU:npu|processor:p30|self_out[10]         ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_value[9]        ; Lost fanout                            ;
-; NPU:npu|processor:p30|self_out[9]          ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_value[8]        ; Lost fanout                            ;
-; NPU:npu|processor:p30|self_out[8]          ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_value[7]        ; Lost fanout                            ;
-; NPU:npu|processor:p30|self_out[7]          ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_value[6]        ; Lost fanout                            ;
-; NPU:npu|processor:p30|self_out[6]          ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_value[5]        ; Lost fanout                            ;
-; NPU:npu|processor:p30|self_out[5]          ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_value[4]        ; Lost fanout                            ;
-; NPU:npu|processor:p30|self_out[4]          ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_value[3]        ; Lost fanout                            ;
-; NPU:npu|processor:p30|self_out[3]          ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_value[2]        ; Lost fanout                            ;
-; NPU:npu|processor:p30|self_out[2]          ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_value[1]        ; Lost fanout                            ;
-; NPU:npu|processor:p30|self_out[1]          ; Lost fanout                            ;
-; NPU:npu|processor:p31|self_value[0]        ; Lost fanout                            ;
-; NPU:npu|processor:p30|self_out[0]          ; Lost fanout                            ;
-; UART:uart|UART_rs232_rx:I_RS232RX|State~5  ; Lost fanout                            ;
-; UART:uart|UART_rs232_tx:I_RS232TX|Bit[3,4] ; Stuck at GND due to stuck port data_in ;
-; UART:uart|UART_rs232_rx:I_RS232RX|Bit[4]   ; Stuck at GND due to stuck port data_in ;
-; Total Number of Removed Registers = 580    ;                                        ;
-+--------------------------------------------+----------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                         ;
-+--------------------------------------+--------------------+-------------------------------------------------------------------------+
-; Register name                        ; Reason for Removal ; Registers Removed due to This Register                                  ;
-+--------------------------------------+--------------------+-------------------------------------------------------------------------+
-; NPU:npu|processor:p33|sum_out[0]     ; Lost Fanouts       ; NPU:npu|processor:p23|sum_out[15], NPU:npu|processor:p23|sum_out[14],   ;
-;                                      ;                    ; NPU:npu|processor:p23|sum_out[13], NPU:npu|processor:p23|sum_out[12],   ;
-;                                      ;                    ; NPU:npu|processor:p23|sum_out[11], NPU:npu|processor:p23|sum_out[10],   ;
-;                                      ;                    ; NPU:npu|processor:p23|sum_out[9], NPU:npu|processor:p23|sum_out[8],     ;
-;                                      ;                    ; NPU:npu|processor:p13|sum_out[15], NPU:npu|processor:p13|sum_out[14],   ;
-;                                      ;                    ; NPU:npu|processor:p13|sum_out[13], NPU:npu|processor:p13|sum_out[12],   ;
-;                                      ;                    ; NPU:npu|processor:p13|sum_out[11], NPU:npu|processor:p13|sum_out[10],   ;
-;                                      ;                    ; NPU:npu|processor:p13|sum_out[9], NPU:npu|processor:p13|sum_out[8],     ;
-;                                      ;                    ; NPU:npu|processor:p03|sum_out[15], NPU:npu|processor:p03|sum_out[14],   ;
-;                                      ;                    ; NPU:npu|processor:p03|sum_out[13], NPU:npu|processor:p03|sum_out[12],   ;
-;                                      ;                    ; NPU:npu|processor:p03|sum_out[11], NPU:npu|processor:p03|sum_out[10],   ;
-;                                      ;                    ; NPU:npu|processor:p03|sum_out[9], NPU:npu|processor:p03|sum_out[8]      ;
-; NPU:npu|processor:p31|sum_out[0]     ; Lost Fanouts       ; NPU:npu|processor:p21|sum_out[15], NPU:npu|processor:p21|sum_out[14],   ;
-;                                      ;                    ; NPU:npu|processor:p21|sum_out[13], NPU:npu|processor:p21|sum_out[12],   ;
-;                                      ;                    ; NPU:npu|processor:p21|sum_out[11], NPU:npu|processor:p21|sum_out[10],   ;
-;                                      ;                    ; NPU:npu|processor:p21|sum_out[9], NPU:npu|processor:p21|sum_out[8],     ;
-;                                      ;                    ; NPU:npu|processor:p11|sum_out[15], NPU:npu|processor:p11|sum_out[14],   ;
-;                                      ;                    ; NPU:npu|processor:p11|sum_out[13], NPU:npu|processor:p11|sum_out[12],   ;
-;                                      ;                    ; NPU:npu|processor:p11|sum_out[11], NPU:npu|processor:p11|sum_out[10],   ;
-;                                      ;                    ; NPU:npu|processor:p11|sum_out[9], NPU:npu|processor:p11|sum_out[8],     ;
-;                                      ;                    ; NPU:npu|processor:p01|sum_out[15], NPU:npu|processor:p01|sum_out[14],   ;
-;                                      ;                    ; NPU:npu|processor:p01|sum_out[13], NPU:npu|processor:p01|sum_out[12],   ;
-;                                      ;                    ; NPU:npu|processor:p01|sum_out[11], NPU:npu|processor:p01|sum_out[10],   ;
-;                                      ;                    ; NPU:npu|processor:p01|sum_out[9], NPU:npu|processor:p01|sum_out[8]      ;
-; NPU:npu|processor:p32|sum_out[0]     ; Lost Fanouts       ; NPU:npu|processor:p22|sum_out[15], NPU:npu|processor:p22|sum_out[14],   ;
-;                                      ;                    ; NPU:npu|processor:p22|sum_out[13], NPU:npu|processor:p22|sum_out[12],   ;
-;                                      ;                    ; NPU:npu|processor:p22|sum_out[11], NPU:npu|processor:p22|sum_out[10],   ;
-;                                      ;                    ; NPU:npu|processor:p22|sum_out[9], NPU:npu|processor:p22|sum_out[8],     ;
-;                                      ;                    ; NPU:npu|processor:p12|sum_out[15], NPU:npu|processor:p12|sum_out[14],   ;
-;                                      ;                    ; NPU:npu|processor:p12|sum_out[13], NPU:npu|processor:p12|sum_out[12],   ;
-;                                      ;                    ; NPU:npu|processor:p12|sum_out[11], NPU:npu|processor:p12|sum_out[10],   ;
-;                                      ;                    ; NPU:npu|processor:p12|sum_out[9], NPU:npu|processor:p12|sum_out[8],     ;
-;                                      ;                    ; NPU:npu|processor:p02|sum_out[15], NPU:npu|processor:p02|sum_out[14],   ;
-;                                      ;                    ; NPU:npu|processor:p02|sum_out[13], NPU:npu|processor:p02|sum_out[12],   ;
-;                                      ;                    ; NPU:npu|processor:p02|sum_out[11], NPU:npu|processor:p02|sum_out[10],   ;
-;                                      ;                    ; NPU:npu|processor:p02|sum_out[9], NPU:npu|processor:p02|sum_out[8]      ;
-; NPU:npu|processor:p03|self_value[13] ; Lost Fanouts       ; NPU:npu|processor:p02|self_out[13], NPU:npu|processor:p01|self_out[13], ;
-;                                      ;                    ; NPU:npu|processor:p00|self_out[13]                                      ;
-; NPU:npu|processor:p03|self_value[12] ; Lost Fanouts       ; NPU:npu|processor:p02|self_out[12], NPU:npu|processor:p01|self_out[12], ;
-;                                      ;                    ; NPU:npu|processor:p00|self_out[12]                                      ;
-; NPU:npu|processor:p03|self_value[11] ; Lost Fanouts       ; NPU:npu|processor:p02|self_out[11], NPU:npu|processor:p01|self_out[11], ;
-;                                      ;                    ; NPU:npu|processor:p00|self_out[11]                                      ;
-; NPU:npu|processor:p03|self_value[10] ; Lost Fanouts       ; NPU:npu|processor:p02|self_out[10], NPU:npu|processor:p01|self_out[10], ;
-;                                      ;                    ; NPU:npu|processor:p00|self_out[10]                                      ;
-; NPU:npu|processor:p03|self_value[9]  ; Lost Fanouts       ; NPU:npu|processor:p02|self_out[9], NPU:npu|processor:p01|self_out[9],   ;
-;                                      ;                    ; NPU:npu|processor:p00|self_out[9]                                       ;
-; NPU:npu|processor:p03|self_value[8]  ; Lost Fanouts       ; NPU:npu|processor:p02|self_out[8], NPU:npu|processor:p01|self_out[8],   ;
-;                                      ;                    ; NPU:npu|processor:p00|self_out[8]                                       ;
-; NPU:npu|processor:p03|self_value[7]  ; Lost Fanouts       ; NPU:npu|processor:p02|self_out[7], NPU:npu|processor:p01|self_out[7],   ;
-;                                      ;                    ; NPU:npu|processor:p00|self_out[7]                                       ;
-; NPU:npu|processor:p03|self_value[6]  ; Lost Fanouts       ; NPU:npu|processor:p02|self_out[6], NPU:npu|processor:p01|self_out[6],   ;
-;                                      ;                    ; NPU:npu|processor:p00|self_out[6]                                       ;
-; NPU:npu|processor:p03|self_value[5]  ; Lost Fanouts       ; NPU:npu|processor:p02|self_out[5], NPU:npu|processor:p01|self_out[5],   ;
-;                                      ;                    ; NPU:npu|processor:p00|self_out[5]                                       ;
-; NPU:npu|processor:p03|self_value[4]  ; Lost Fanouts       ; NPU:npu|processor:p02|self_out[4], NPU:npu|processor:p01|self_out[4],   ;
-;                                      ;                    ; NPU:npu|processor:p00|self_out[4]                                       ;
-; NPU:npu|processor:p03|self_value[3]  ; Lost Fanouts       ; NPU:npu|processor:p02|self_out[3], NPU:npu|processor:p01|self_out[3],   ;
-;                                      ;                    ; NPU:npu|processor:p00|self_out[3]                                       ;
-; NPU:npu|processor:p03|self_value[2]  ; Lost Fanouts       ; NPU:npu|processor:p02|self_out[2], NPU:npu|processor:p01|self_out[2],   ;
-;                                      ;                    ; NPU:npu|processor:p00|self_out[2]                                       ;
-; NPU:npu|processor:p03|self_value[1]  ; Lost Fanouts       ; NPU:npu|processor:p02|self_out[1], NPU:npu|processor:p01|self_out[1],   ;
-;                                      ;                    ; NPU:npu|processor:p00|self_out[1]                                       ;
-; NPU:npu|processor:p03|self_value[0]  ; Lost Fanouts       ; NPU:npu|processor:p02|self_out[0], NPU:npu|processor:p01|self_out[0],   ;
-;                                      ;                    ; NPU:npu|processor:p00|self_out[0]                                       ;
-; NPU:npu|processor:p13|self_value[15] ; Lost Fanouts       ; NPU:npu|processor:p12|self_out[15], NPU:npu|processor:p11|self_out[15], ;
-;                                      ;                    ; NPU:npu|processor:p10|self_out[15]                                      ;
-; NPU:npu|processor:p13|self_value[14] ; Lost Fanouts       ; NPU:npu|processor:p12|self_out[14], NPU:npu|processor:p11|self_out[14], ;
-;                                      ;                    ; NPU:npu|processor:p10|self_out[14]                                      ;
-; NPU:npu|processor:p13|self_value[13] ; Lost Fanouts       ; NPU:npu|processor:p12|self_out[13], NPU:npu|processor:p11|self_out[13], ;
-;                                      ;                    ; NPU:npu|processor:p10|self_out[13]                                      ;
-; NPU:npu|processor:p13|self_value[12] ; Lost Fanouts       ; NPU:npu|processor:p12|self_out[12], NPU:npu|processor:p11|self_out[12], ;
-;                                      ;                    ; NPU:npu|processor:p10|self_out[12]                                      ;
-; NPU:npu|processor:p13|self_value[11] ; Lost Fanouts       ; NPU:npu|processor:p12|self_out[11], NPU:npu|processor:p11|self_out[11], ;
-;                                      ;                    ; NPU:npu|processor:p10|self_out[11]                                      ;
-; NPU:npu|processor:p13|self_value[10] ; Lost Fanouts       ; NPU:npu|processor:p12|self_out[10], NPU:npu|processor:p11|self_out[10], ;
-;                                      ;                    ; NPU:npu|processor:p10|self_out[10]                                      ;
-; NPU:npu|processor:p13|self_value[9]  ; Lost Fanouts       ; NPU:npu|processor:p12|self_out[9], NPU:npu|processor:p11|self_out[9],   ;
-;                                      ;                    ; NPU:npu|processor:p10|self_out[9]                                       ;
-; NPU:npu|processor:p13|self_value[8]  ; Lost Fanouts       ; NPU:npu|processor:p12|self_out[8], NPU:npu|processor:p11|self_out[8],   ;
-;                                      ;                    ; NPU:npu|processor:p10|self_out[8]                                       ;
-; NPU:npu|processor:p13|self_value[7]  ; Lost Fanouts       ; NPU:npu|processor:p12|self_out[7], NPU:npu|processor:p11|self_out[7],   ;
-;                                      ;                    ; NPU:npu|processor:p10|self_out[7]                                       ;
-; NPU:npu|processor:p13|self_value[6]  ; Lost Fanouts       ; NPU:npu|processor:p12|self_out[6], NPU:npu|processor:p11|self_out[6],   ;
-;                                      ;                    ; NPU:npu|processor:p10|self_out[6]                                       ;
-; NPU:npu|processor:p13|self_value[5]  ; Lost Fanouts       ; NPU:npu|processor:p12|self_out[5], NPU:npu|processor:p11|self_out[5],   ;
-;                                      ;                    ; NPU:npu|processor:p10|self_out[5]                                       ;
-; NPU:npu|processor:p13|self_value[4]  ; Lost Fanouts       ; NPU:npu|processor:p12|self_out[4], NPU:npu|processor:p11|self_out[4],   ;
-;                                      ;                    ; NPU:npu|processor:p10|self_out[4]                                       ;
-; NPU:npu|processor:p13|self_value[3]  ; Lost Fanouts       ; NPU:npu|processor:p12|self_out[3], NPU:npu|processor:p11|self_out[3],   ;
-;                                      ;                    ; NPU:npu|processor:p10|self_out[3]                                       ;
-; NPU:npu|processor:p13|self_value[2]  ; Lost Fanouts       ; NPU:npu|processor:p12|self_out[2], NPU:npu|processor:p11|self_out[2],   ;
-;                                      ;                    ; NPU:npu|processor:p10|self_out[2]                                       ;
-; NPU:npu|processor:p13|self_value[1]  ; Lost Fanouts       ; NPU:npu|processor:p12|self_out[1], NPU:npu|processor:p11|self_out[1],   ;
-;                                      ;                    ; NPU:npu|processor:p10|self_out[1]                                       ;
-; NPU:npu|processor:p13|self_value[0]  ; Lost Fanouts       ; NPU:npu|processor:p12|self_out[0], NPU:npu|processor:p11|self_out[0],   ;
-;                                      ;                    ; NPU:npu|processor:p10|self_out[0]                                       ;
-; NPU:npu|processor:p23|self_value[15] ; Lost Fanouts       ; NPU:npu|processor:p22|self_out[15], NPU:npu|processor:p21|self_out[15], ;
-;                                      ;                    ; NPU:npu|processor:p20|self_out[15]                                      ;
-; NPU:npu|processor:p23|self_value[14] ; Lost Fanouts       ; NPU:npu|processor:p22|self_out[14], NPU:npu|processor:p21|self_out[14], ;
-;                                      ;                    ; NPU:npu|processor:p20|self_out[14]                                      ;
-; NPU:npu|processor:p23|self_value[13] ; Lost Fanouts       ; NPU:npu|processor:p22|self_out[13], NPU:npu|processor:p21|self_out[13], ;
-;                                      ;                    ; NPU:npu|processor:p20|self_out[13]                                      ;
-; NPU:npu|processor:p23|self_value[12] ; Lost Fanouts       ; NPU:npu|processor:p22|self_out[12], NPU:npu|processor:p21|self_out[12], ;
-;                                      ;                    ; NPU:npu|processor:p20|self_out[12]                                      ;
-; NPU:npu|processor:p23|self_value[11] ; Lost Fanouts       ; NPU:npu|processor:p22|self_out[11], NPU:npu|processor:p21|self_out[11], ;
-;                                      ;                    ; NPU:npu|processor:p20|self_out[11]                                      ;
-; NPU:npu|processor:p23|self_value[10] ; Lost Fanouts       ; NPU:npu|processor:p22|self_out[10], NPU:npu|processor:p21|self_out[10], ;
-;                                      ;                    ; NPU:npu|processor:p20|self_out[10]                                      ;
-; NPU:npu|processor:p23|self_value[9]  ; Lost Fanouts       ; NPU:npu|processor:p22|self_out[9], NPU:npu|processor:p21|self_out[9],   ;
-;                                      ;                    ; NPU:npu|processor:p20|self_out[9]                                       ;
-; NPU:npu|processor:p23|self_value[8]  ; Lost Fanouts       ; NPU:npu|processor:p22|self_out[8], NPU:npu|processor:p21|self_out[8],   ;
-;                                      ;                    ; NPU:npu|processor:p20|self_out[8]                                       ;
-; NPU:npu|processor:p23|self_value[7]  ; Lost Fanouts       ; NPU:npu|processor:p22|self_out[7], NPU:npu|processor:p21|self_out[7],   ;
-;                                      ;                    ; NPU:npu|processor:p20|self_out[7]                                       ;
-; NPU:npu|processor:p23|self_value[6]  ; Lost Fanouts       ; NPU:npu|processor:p22|self_out[6], NPU:npu|processor:p21|self_out[6],   ;
-;                                      ;                    ; NPU:npu|processor:p20|self_out[6]                                       ;
-; NPU:npu|processor:p23|self_value[5]  ; Lost Fanouts       ; NPU:npu|processor:p22|self_out[5], NPU:npu|processor:p21|self_out[5],   ;
-;                                      ;                    ; NPU:npu|processor:p20|self_out[5]                                       ;
-; NPU:npu|processor:p23|self_value[4]  ; Lost Fanouts       ; NPU:npu|processor:p22|self_out[4], NPU:npu|processor:p21|self_out[4],   ;
-;                                      ;                    ; NPU:npu|processor:p20|self_out[4]                                       ;
-; NPU:npu|processor:p23|self_value[3]  ; Lost Fanouts       ; NPU:npu|processor:p22|self_out[3], NPU:npu|processor:p21|self_out[3],   ;
-;                                      ;                    ; NPU:npu|processor:p20|self_out[3]                                       ;
-; NPU:npu|processor:p23|self_value[2]  ; Lost Fanouts       ; NPU:npu|processor:p22|self_out[2], NPU:npu|processor:p21|self_out[2],   ;
-;                                      ;                    ; NPU:npu|processor:p20|self_out[2]                                       ;
-; NPU:npu|processor:p23|self_value[1]  ; Lost Fanouts       ; NPU:npu|processor:p22|self_out[1], NPU:npu|processor:p21|self_out[1],   ;
-;                                      ;                    ; NPU:npu|processor:p20|self_out[1]                                       ;
-; NPU:npu|processor:p23|self_value[0]  ; Lost Fanouts       ; NPU:npu|processor:p22|self_out[0], NPU:npu|processor:p21|self_out[0],   ;
-;                                      ;                    ; NPU:npu|processor:p20|self_out[0]                                       ;
-; NPU:npu|processor:p33|self_value[15] ; Lost Fanouts       ; NPU:npu|processor:p32|self_out[15], NPU:npu|processor:p31|self_out[15], ;
-;                                      ;                    ; NPU:npu|processor:p30|self_out[15]                                      ;
-; NPU:npu|processor:p03|self_value[15] ; Lost Fanouts       ; NPU:npu|processor:p02|self_out[15], NPU:npu|processor:p01|self_out[15], ;
-;                                      ;                    ; NPU:npu|processor:p00|self_out[15]                                      ;
-; NPU:npu|processor:p33|self_value[13] ; Lost Fanouts       ; NPU:npu|processor:p32|self_out[13], NPU:npu|processor:p31|self_out[13], ;
-;                                      ;                    ; NPU:npu|processor:p30|self_out[13]                                      ;
-; NPU:npu|processor:p33|self_value[12] ; Lost Fanouts       ; NPU:npu|processor:p32|self_out[12], NPU:npu|processor:p31|self_out[12], ;
-;                                      ;                    ; NPU:npu|processor:p30|self_out[12]                                      ;
-; NPU:npu|processor:p33|self_value[11] ; Lost Fanouts       ; NPU:npu|processor:p32|self_out[11], NPU:npu|processor:p31|self_out[11], ;
-;                                      ;                    ; NPU:npu|processor:p30|self_out[11]                                      ;
-; NPU:npu|processor:p33|self_value[10] ; Lost Fanouts       ; NPU:npu|processor:p32|self_out[10], NPU:npu|processor:p31|self_out[10], ;
-;                                      ;                    ; NPU:npu|processor:p30|self_out[10]                                      ;
-; NPU:npu|processor:p33|self_value[9]  ; Lost Fanouts       ; NPU:npu|processor:p32|self_out[9], NPU:npu|processor:p31|self_out[9],   ;
-;                                      ;                    ; NPU:npu|processor:p30|self_out[9]                                       ;
-; NPU:npu|processor:p33|self_value[8]  ; Lost Fanouts       ; NPU:npu|processor:p32|self_out[8], NPU:npu|processor:p31|self_out[8],   ;
-;                                      ;                    ; NPU:npu|processor:p30|self_out[8]                                       ;
-; NPU:npu|processor:p33|self_value[7]  ; Lost Fanouts       ; NPU:npu|processor:p32|self_out[7], NPU:npu|processor:p31|self_out[7],   ;
-;                                      ;                    ; NPU:npu|processor:p30|self_out[7]                                       ;
-; NPU:npu|processor:p33|self_value[14] ; Lost Fanouts       ; NPU:npu|processor:p32|self_out[14], NPU:npu|processor:p31|self_out[14], ;
-;                                      ;                    ; NPU:npu|processor:p30|self_out[14]                                      ;
-; NPU:npu|processor:p33|self_value[5]  ; Lost Fanouts       ; NPU:npu|processor:p32|self_out[5], NPU:npu|processor:p31|self_out[5],   ;
-;                                      ;                    ; NPU:npu|processor:p30|self_out[5]                                       ;
-; NPU:npu|processor:p33|self_value[4]  ; Lost Fanouts       ; NPU:npu|processor:p32|self_out[4], NPU:npu|processor:p31|self_out[4],   ;
-;                                      ;                    ; NPU:npu|processor:p30|self_out[4]                                       ;
-; NPU:npu|processor:p33|self_value[3]  ; Lost Fanouts       ; NPU:npu|processor:p32|self_out[3], NPU:npu|processor:p31|self_out[3],   ;
-;                                      ;                    ; NPU:npu|processor:p30|self_out[3]                                       ;
-; NPU:npu|processor:p33|self_value[2]  ; Lost Fanouts       ; NPU:npu|processor:p32|self_out[2], NPU:npu|processor:p31|self_out[2],   ;
-;                                      ;                    ; NPU:npu|processor:p30|self_out[2]                                       ;
-; NPU:npu|processor:p33|self_value[1]  ; Lost Fanouts       ; NPU:npu|processor:p32|self_out[1], NPU:npu|processor:p31|self_out[1],   ;
-;                                      ;                    ; NPU:npu|processor:p30|self_out[1]                                       ;
-; NPU:npu|processor:p33|self_value[0]  ; Lost Fanouts       ; NPU:npu|processor:p32|self_out[0], NPU:npu|processor:p31|self_out[0],   ;
-;                                      ;                    ; NPU:npu|processor:p30|self_out[0]                                       ;
-; NPU:npu|processor:p03|self_value[14] ; Lost Fanouts       ; NPU:npu|processor:p02|self_out[14], NPU:npu|processor:p01|self_out[14], ;
-;                                      ;                    ; NPU:npu|processor:p00|self_out[14]                                      ;
-; NPU:npu|processor:p33|self_value[6]  ; Lost Fanouts       ; NPU:npu|processor:p32|self_out[6], NPU:npu|processor:p31|self_out[6],   ;
-;                                      ;                    ; NPU:npu|processor:p30|self_out[6]                                       ;
-+--------------------------------------+--------------------+-------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                           ;
++--------------------------------------------+-------------------------------------------------+
+; Register name                              ; Reason for Removal                              ;
++--------------------------------------------+-------------------------------------------------+
+; NPU:npu|processor:p32|self_out[0]          ; Merged with NPU:npu|processor:p32|self_value[0] ;
+; NPU:npu|processor:p32|self_value[15]       ; Merged with NPU:npu|processor:p32|self_out[15]  ;
+; NPU:npu|processor:p32|self_value[14]       ; Merged with NPU:npu|processor:p32|self_out[14]  ;
+; NPU:npu|processor:p32|self_value[13]       ; Merged with NPU:npu|processor:p32|self_out[13]  ;
+; NPU:npu|processor:p32|self_value[12]       ; Merged with NPU:npu|processor:p32|self_out[12]  ;
+; NPU:npu|processor:p32|self_value[11]       ; Merged with NPU:npu|processor:p32|self_out[11]  ;
+; NPU:npu|processor:p32|self_value[10]       ; Merged with NPU:npu|processor:p32|self_out[10]  ;
+; NPU:npu|processor:p32|self_value[9]        ; Merged with NPU:npu|processor:p32|self_out[9]   ;
+; NPU:npu|processor:p32|self_value[8]        ; Merged with NPU:npu|processor:p32|self_out[8]   ;
+; NPU:npu|processor:p32|self_value[7]        ; Merged with NPU:npu|processor:p32|self_out[7]   ;
+; NPU:npu|processor:p32|self_value[6]        ; Merged with NPU:npu|processor:p32|self_out[6]   ;
+; NPU:npu|processor:p32|self_value[5]        ; Merged with NPU:npu|processor:p32|self_out[5]   ;
+; NPU:npu|processor:p32|self_value[4]        ; Merged with NPU:npu|processor:p32|self_out[4]   ;
+; NPU:npu|processor:p32|self_value[3]        ; Merged with NPU:npu|processor:p32|self_out[3]   ;
+; NPU:npu|processor:p32|self_value[2]        ; Merged with NPU:npu|processor:p32|self_out[2]   ;
+; NPU:npu|processor:p32|self_value[1]        ; Merged with NPU:npu|processor:p32|self_out[1]   ;
+; NPU:npu|processor:p22|self_out[0]          ; Merged with NPU:npu|processor:p22|self_value[0] ;
+; NPU:npu|processor:p22|self_value[15]       ; Merged with NPU:npu|processor:p22|self_out[15]  ;
+; NPU:npu|processor:p22|self_value[14]       ; Merged with NPU:npu|processor:p22|self_out[14]  ;
+; NPU:npu|processor:p22|self_value[13]       ; Merged with NPU:npu|processor:p22|self_out[13]  ;
+; NPU:npu|processor:p22|self_value[12]       ; Merged with NPU:npu|processor:p22|self_out[12]  ;
+; NPU:npu|processor:p22|self_value[11]       ; Merged with NPU:npu|processor:p22|self_out[11]  ;
+; NPU:npu|processor:p22|self_value[10]       ; Merged with NPU:npu|processor:p22|self_out[10]  ;
+; NPU:npu|processor:p22|self_value[9]        ; Merged with NPU:npu|processor:p22|self_out[9]   ;
+; NPU:npu|processor:p22|self_value[8]        ; Merged with NPU:npu|processor:p22|self_out[8]   ;
+; NPU:npu|processor:p22|self_value[7]        ; Merged with NPU:npu|processor:p22|self_out[7]   ;
+; NPU:npu|processor:p22|self_value[6]        ; Merged with NPU:npu|processor:p22|self_out[6]   ;
+; NPU:npu|processor:p22|self_value[5]        ; Merged with NPU:npu|processor:p22|self_out[5]   ;
+; NPU:npu|processor:p22|self_value[4]        ; Merged with NPU:npu|processor:p22|self_out[4]   ;
+; NPU:npu|processor:p22|self_value[3]        ; Merged with NPU:npu|processor:p22|self_out[3]   ;
+; NPU:npu|processor:p22|self_value[2]        ; Merged with NPU:npu|processor:p22|self_out[2]   ;
+; NPU:npu|processor:p22|self_value[1]        ; Merged with NPU:npu|processor:p22|self_out[1]   ;
+; NPU:npu|processor:p12|self_out[0]          ; Merged with NPU:npu|processor:p12|self_value[0] ;
+; NPU:npu|processor:p12|self_value[15]       ; Merged with NPU:npu|processor:p12|self_out[15]  ;
+; NPU:npu|processor:p12|self_value[14]       ; Merged with NPU:npu|processor:p12|self_out[14]  ;
+; NPU:npu|processor:p12|self_value[13]       ; Merged with NPU:npu|processor:p12|self_out[13]  ;
+; NPU:npu|processor:p12|self_value[12]       ; Merged with NPU:npu|processor:p12|self_out[12]  ;
+; NPU:npu|processor:p12|self_value[11]       ; Merged with NPU:npu|processor:p12|self_out[11]  ;
+; NPU:npu|processor:p12|self_value[10]       ; Merged with NPU:npu|processor:p12|self_out[10]  ;
+; NPU:npu|processor:p12|self_value[9]        ; Merged with NPU:npu|processor:p12|self_out[9]   ;
+; NPU:npu|processor:p12|self_value[8]        ; Merged with NPU:npu|processor:p12|self_out[8]   ;
+; NPU:npu|processor:p12|self_value[7]        ; Merged with NPU:npu|processor:p12|self_out[7]   ;
+; NPU:npu|processor:p12|self_value[6]        ; Merged with NPU:npu|processor:p12|self_out[6]   ;
+; NPU:npu|processor:p12|self_value[5]        ; Merged with NPU:npu|processor:p12|self_out[5]   ;
+; NPU:npu|processor:p12|self_value[4]        ; Merged with NPU:npu|processor:p12|self_out[4]   ;
+; NPU:npu|processor:p12|self_value[3]        ; Merged with NPU:npu|processor:p12|self_out[3]   ;
+; NPU:npu|processor:p12|self_value[2]        ; Merged with NPU:npu|processor:p12|self_out[2]   ;
+; NPU:npu|processor:p12|self_value[1]        ; Merged with NPU:npu|processor:p12|self_out[1]   ;
+; NPU:npu|processor:p02|self_out[0]          ; Merged with NPU:npu|processor:p02|self_value[0] ;
+; NPU:npu|processor:p02|self_value[15]       ; Merged with NPU:npu|processor:p02|self_out[15]  ;
+; NPU:npu|processor:p02|self_value[14]       ; Merged with NPU:npu|processor:p02|self_out[14]  ;
+; NPU:npu|processor:p02|self_value[13]       ; Merged with NPU:npu|processor:p02|self_out[13]  ;
+; NPU:npu|processor:p02|self_value[12]       ; Merged with NPU:npu|processor:p02|self_out[12]  ;
+; NPU:npu|processor:p02|self_value[11]       ; Merged with NPU:npu|processor:p02|self_out[11]  ;
+; NPU:npu|processor:p02|self_value[10]       ; Merged with NPU:npu|processor:p02|self_out[10]  ;
+; NPU:npu|processor:p02|self_value[9]        ; Merged with NPU:npu|processor:p02|self_out[9]   ;
+; NPU:npu|processor:p02|self_value[8]        ; Merged with NPU:npu|processor:p02|self_out[8]   ;
+; NPU:npu|processor:p02|self_value[7]        ; Merged with NPU:npu|processor:p02|self_out[7]   ;
+; NPU:npu|processor:p02|self_value[6]        ; Merged with NPU:npu|processor:p02|self_out[6]   ;
+; NPU:npu|processor:p02|self_value[5]        ; Merged with NPU:npu|processor:p02|self_out[5]   ;
+; NPU:npu|processor:p02|self_value[4]        ; Merged with NPU:npu|processor:p02|self_out[4]   ;
+; NPU:npu|processor:p02|self_value[3]        ; Merged with NPU:npu|processor:p02|self_out[3]   ;
+; NPU:npu|processor:p02|self_value[2]        ; Merged with NPU:npu|processor:p02|self_out[2]   ;
+; NPU:npu|processor:p02|self_value[1]        ; Merged with NPU:npu|processor:p02|self_out[1]   ;
+; NPU:npu|processor:p31|self_out[0]          ; Merged with NPU:npu|processor:p31|self_value[0] ;
+; NPU:npu|processor:p31|self_value[15]       ; Merged with NPU:npu|processor:p31|self_out[15]  ;
+; NPU:npu|processor:p31|self_value[14]       ; Merged with NPU:npu|processor:p31|self_out[14]  ;
+; NPU:npu|processor:p31|self_value[13]       ; Merged with NPU:npu|processor:p31|self_out[13]  ;
+; NPU:npu|processor:p31|self_value[12]       ; Merged with NPU:npu|processor:p31|self_out[12]  ;
+; NPU:npu|processor:p31|self_value[11]       ; Merged with NPU:npu|processor:p31|self_out[11]  ;
+; NPU:npu|processor:p31|self_value[10]       ; Merged with NPU:npu|processor:p31|self_out[10]  ;
+; NPU:npu|processor:p31|self_value[9]        ; Merged with NPU:npu|processor:p31|self_out[9]   ;
+; NPU:npu|processor:p31|self_value[8]        ; Merged with NPU:npu|processor:p31|self_out[8]   ;
+; NPU:npu|processor:p31|self_value[7]        ; Merged with NPU:npu|processor:p31|self_out[7]   ;
+; NPU:npu|processor:p31|self_value[6]        ; Merged with NPU:npu|processor:p31|self_out[6]   ;
+; NPU:npu|processor:p31|self_value[5]        ; Merged with NPU:npu|processor:p31|self_out[5]   ;
+; NPU:npu|processor:p31|self_value[4]        ; Merged with NPU:npu|processor:p31|self_out[4]   ;
+; NPU:npu|processor:p31|self_value[3]        ; Merged with NPU:npu|processor:p31|self_out[3]   ;
+; NPU:npu|processor:p31|self_value[2]        ; Merged with NPU:npu|processor:p31|self_out[2]   ;
+; NPU:npu|processor:p31|self_value[1]        ; Merged with NPU:npu|processor:p31|self_out[1]   ;
+; NPU:npu|processor:p21|self_out[0]          ; Merged with NPU:npu|processor:p21|self_value[0] ;
+; NPU:npu|processor:p21|self_value[15]       ; Merged with NPU:npu|processor:p21|self_out[15]  ;
+; NPU:npu|processor:p21|self_value[14]       ; Merged with NPU:npu|processor:p21|self_out[14]  ;
+; NPU:npu|processor:p21|self_value[13]       ; Merged with NPU:npu|processor:p21|self_out[13]  ;
+; NPU:npu|processor:p21|self_value[12]       ; Merged with NPU:npu|processor:p21|self_out[12]  ;
+; NPU:npu|processor:p21|self_value[11]       ; Merged with NPU:npu|processor:p21|self_out[11]  ;
+; NPU:npu|processor:p21|self_value[10]       ; Merged with NPU:npu|processor:p21|self_out[10]  ;
+; NPU:npu|processor:p21|self_value[9]        ; Merged with NPU:npu|processor:p21|self_out[9]   ;
+; NPU:npu|processor:p21|self_value[8]        ; Merged with NPU:npu|processor:p21|self_out[8]   ;
+; NPU:npu|processor:p21|self_value[7]        ; Merged with NPU:npu|processor:p21|self_out[7]   ;
+; NPU:npu|processor:p21|self_value[6]        ; Merged with NPU:npu|processor:p21|self_out[6]   ;
+; NPU:npu|processor:p21|self_value[5]        ; Merged with NPU:npu|processor:p21|self_out[5]   ;
+; NPU:npu|processor:p21|self_value[4]        ; Merged with NPU:npu|processor:p21|self_out[4]   ;
+; NPU:npu|processor:p21|self_value[3]        ; Merged with NPU:npu|processor:p21|self_out[3]   ;
+; NPU:npu|processor:p21|self_value[2]        ; Merged with NPU:npu|processor:p21|self_out[2]   ;
+; NPU:npu|processor:p21|self_value[1]        ; Merged with NPU:npu|processor:p21|self_out[1]   ;
+; NPU:npu|processor:p11|self_out[0]          ; Merged with NPU:npu|processor:p11|self_value[0] ;
+; NPU:npu|processor:p11|self_value[15]       ; Merged with NPU:npu|processor:p11|self_out[15]  ;
+; NPU:npu|processor:p11|self_value[14]       ; Merged with NPU:npu|processor:p11|self_out[14]  ;
+; NPU:npu|processor:p11|self_value[13]       ; Merged with NPU:npu|processor:p11|self_out[13]  ;
+; NPU:npu|processor:p11|self_value[12]       ; Merged with NPU:npu|processor:p11|self_out[12]  ;
+; NPU:npu|processor:p11|self_value[11]       ; Merged with NPU:npu|processor:p11|self_out[11]  ;
+; NPU:npu|processor:p11|self_value[10]       ; Merged with NPU:npu|processor:p11|self_out[10]  ;
+; NPU:npu|processor:p11|self_value[9]        ; Merged with NPU:npu|processor:p11|self_out[9]   ;
+; NPU:npu|processor:p11|self_value[8]        ; Merged with NPU:npu|processor:p11|self_out[8]   ;
+; NPU:npu|processor:p11|self_value[7]        ; Merged with NPU:npu|processor:p11|self_out[7]   ;
+; NPU:npu|processor:p11|self_value[6]        ; Merged with NPU:npu|processor:p11|self_out[6]   ;
+; NPU:npu|processor:p11|self_value[5]        ; Merged with NPU:npu|processor:p11|self_out[5]   ;
+; NPU:npu|processor:p11|self_value[4]        ; Merged with NPU:npu|processor:p11|self_out[4]   ;
+; NPU:npu|processor:p11|self_value[3]        ; Merged with NPU:npu|processor:p11|self_out[3]   ;
+; NPU:npu|processor:p11|self_value[2]        ; Merged with NPU:npu|processor:p11|self_out[2]   ;
+; NPU:npu|processor:p11|self_value[1]        ; Merged with NPU:npu|processor:p11|self_out[1]   ;
+; NPU:npu|processor:p01|self_out[0]          ; Merged with NPU:npu|processor:p01|self_value[0] ;
+; NPU:npu|processor:p01|self_value[15]       ; Merged with NPU:npu|processor:p01|self_out[15]  ;
+; NPU:npu|processor:p01|self_value[14]       ; Merged with NPU:npu|processor:p01|self_out[14]  ;
+; NPU:npu|processor:p01|self_value[13]       ; Merged with NPU:npu|processor:p01|self_out[13]  ;
+; NPU:npu|processor:p01|self_value[12]       ; Merged with NPU:npu|processor:p01|self_out[12]  ;
+; NPU:npu|processor:p01|self_value[11]       ; Merged with NPU:npu|processor:p01|self_out[11]  ;
+; NPU:npu|processor:p01|self_value[10]       ; Merged with NPU:npu|processor:p01|self_out[10]  ;
+; NPU:npu|processor:p01|self_value[9]        ; Merged with NPU:npu|processor:p01|self_out[9]   ;
+; NPU:npu|processor:p01|self_value[8]        ; Merged with NPU:npu|processor:p01|self_out[8]   ;
+; NPU:npu|processor:p01|self_value[7]        ; Merged with NPU:npu|processor:p01|self_out[7]   ;
+; NPU:npu|processor:p01|self_value[6]        ; Merged with NPU:npu|processor:p01|self_out[6]   ;
+; NPU:npu|processor:p01|self_value[5]        ; Merged with NPU:npu|processor:p01|self_out[5]   ;
+; NPU:npu|processor:p01|self_value[4]        ; Merged with NPU:npu|processor:p01|self_out[4]   ;
+; NPU:npu|processor:p01|self_value[3]        ; Merged with NPU:npu|processor:p01|self_out[3]   ;
+; NPU:npu|processor:p01|self_value[2]        ; Merged with NPU:npu|processor:p01|self_out[2]   ;
+; NPU:npu|processor:p01|self_value[1]        ; Merged with NPU:npu|processor:p01|self_out[1]   ;
+; NPU:npu|processor:p30|self_out[0]          ; Merged with NPU:npu|processor:p30|self_value[0] ;
+; NPU:npu|processor:p30|self_value[15]       ; Merged with NPU:npu|processor:p30|self_out[15]  ;
+; NPU:npu|processor:p30|self_value[14]       ; Merged with NPU:npu|processor:p30|self_out[14]  ;
+; NPU:npu|processor:p30|self_value[13]       ; Merged with NPU:npu|processor:p30|self_out[13]  ;
+; NPU:npu|processor:p30|self_value[12]       ; Merged with NPU:npu|processor:p30|self_out[12]  ;
+; NPU:npu|processor:p30|self_value[11]       ; Merged with NPU:npu|processor:p30|self_out[11]  ;
+; NPU:npu|processor:p30|self_value[10]       ; Merged with NPU:npu|processor:p30|self_out[10]  ;
+; NPU:npu|processor:p30|self_value[9]        ; Merged with NPU:npu|processor:p30|self_out[9]   ;
+; NPU:npu|processor:p30|self_value[8]        ; Merged with NPU:npu|processor:p30|self_out[8]   ;
+; NPU:npu|processor:p30|self_value[7]        ; Merged with NPU:npu|processor:p30|self_out[7]   ;
+; NPU:npu|processor:p30|self_value[6]        ; Merged with NPU:npu|processor:p30|self_out[6]   ;
+; NPU:npu|processor:p30|self_value[5]        ; Merged with NPU:npu|processor:p30|self_out[5]   ;
+; NPU:npu|processor:p30|self_value[4]        ; Merged with NPU:npu|processor:p30|self_out[4]   ;
+; NPU:npu|processor:p30|self_value[3]        ; Merged with NPU:npu|processor:p30|self_out[3]   ;
+; NPU:npu|processor:p30|self_value[2]        ; Merged with NPU:npu|processor:p30|self_out[2]   ;
+; NPU:npu|processor:p30|self_value[1]        ; Merged with NPU:npu|processor:p30|self_out[1]   ;
+; NPU:npu|processor:p20|self_out[0]          ; Merged with NPU:npu|processor:p20|self_value[0] ;
+; NPU:npu|processor:p20|self_value[15]       ; Merged with NPU:npu|processor:p20|self_out[15]  ;
+; NPU:npu|processor:p20|self_value[14]       ; Merged with NPU:npu|processor:p20|self_out[14]  ;
+; NPU:npu|processor:p20|self_value[13]       ; Merged with NPU:npu|processor:p20|self_out[13]  ;
+; NPU:npu|processor:p20|self_value[12]       ; Merged with NPU:npu|processor:p20|self_out[12]  ;
+; NPU:npu|processor:p20|self_value[11]       ; Merged with NPU:npu|processor:p20|self_out[11]  ;
+; NPU:npu|processor:p20|self_value[10]       ; Merged with NPU:npu|processor:p20|self_out[10]  ;
+; NPU:npu|processor:p20|self_value[9]        ; Merged with NPU:npu|processor:p20|self_out[9]   ;
+; NPU:npu|processor:p20|self_value[8]        ; Merged with NPU:npu|processor:p20|self_out[8]   ;
+; NPU:npu|processor:p20|self_value[7]        ; Merged with NPU:npu|processor:p20|self_out[7]   ;
+; NPU:npu|processor:p20|self_value[6]        ; Merged with NPU:npu|processor:p20|self_out[6]   ;
+; NPU:npu|processor:p20|self_value[5]        ; Merged with NPU:npu|processor:p20|self_out[5]   ;
+; NPU:npu|processor:p20|self_value[4]        ; Merged with NPU:npu|processor:p20|self_out[4]   ;
+; NPU:npu|processor:p20|self_value[3]        ; Merged with NPU:npu|processor:p20|self_out[3]   ;
+; NPU:npu|processor:p20|self_value[2]        ; Merged with NPU:npu|processor:p20|self_out[2]   ;
+; NPU:npu|processor:p20|self_value[1]        ; Merged with NPU:npu|processor:p20|self_out[1]   ;
+; NPU:npu|processor:p10|self_out[0]          ; Merged with NPU:npu|processor:p10|self_value[0] ;
+; NPU:npu|processor:p10|self_value[15]       ; Merged with NPU:npu|processor:p10|self_out[15]  ;
+; NPU:npu|processor:p10|self_value[14]       ; Merged with NPU:npu|processor:p10|self_out[14]  ;
+; NPU:npu|processor:p10|self_value[13]       ; Merged with NPU:npu|processor:p10|self_out[13]  ;
+; NPU:npu|processor:p10|self_value[12]       ; Merged with NPU:npu|processor:p10|self_out[12]  ;
+; NPU:npu|processor:p10|self_value[11]       ; Merged with NPU:npu|processor:p10|self_out[11]  ;
+; NPU:npu|processor:p10|self_value[10]       ; Merged with NPU:npu|processor:p10|self_out[10]  ;
+; NPU:npu|processor:p10|self_value[9]        ; Merged with NPU:npu|processor:p10|self_out[9]   ;
+; NPU:npu|processor:p10|self_value[8]        ; Merged with NPU:npu|processor:p10|self_out[8]   ;
+; NPU:npu|processor:p10|self_value[7]        ; Merged with NPU:npu|processor:p10|self_out[7]   ;
+; NPU:npu|processor:p10|self_value[6]        ; Merged with NPU:npu|processor:p10|self_out[6]   ;
+; NPU:npu|processor:p10|self_value[5]        ; Merged with NPU:npu|processor:p10|self_out[5]   ;
+; NPU:npu|processor:p10|self_value[4]        ; Merged with NPU:npu|processor:p10|self_out[4]   ;
+; NPU:npu|processor:p10|self_value[3]        ; Merged with NPU:npu|processor:p10|self_out[3]   ;
+; NPU:npu|processor:p10|self_value[2]        ; Merged with NPU:npu|processor:p10|self_out[2]   ;
+; NPU:npu|processor:p10|self_value[1]        ; Merged with NPU:npu|processor:p10|self_out[1]   ;
+; NPU:npu|processor:p00|self_out[0]          ; Merged with NPU:npu|processor:p00|self_value[0] ;
+; NPU:npu|processor:p00|self_value[15]       ; Merged with NPU:npu|processor:p00|self_out[15]  ;
+; NPU:npu|processor:p00|self_value[14]       ; Merged with NPU:npu|processor:p00|self_out[14]  ;
+; NPU:npu|processor:p00|self_value[13]       ; Merged with NPU:npu|processor:p00|self_out[13]  ;
+; NPU:npu|processor:p00|self_value[12]       ; Merged with NPU:npu|processor:p00|self_out[12]  ;
+; NPU:npu|processor:p00|self_value[11]       ; Merged with NPU:npu|processor:p00|self_out[11]  ;
+; NPU:npu|processor:p00|self_value[10]       ; Merged with NPU:npu|processor:p00|self_out[10]  ;
+; NPU:npu|processor:p00|self_value[9]        ; Merged with NPU:npu|processor:p00|self_out[9]   ;
+; NPU:npu|processor:p00|self_value[8]        ; Merged with NPU:npu|processor:p00|self_out[8]   ;
+; NPU:npu|processor:p00|self_value[7]        ; Merged with NPU:npu|processor:p00|self_out[7]   ;
+; NPU:npu|processor:p00|self_value[6]        ; Merged with NPU:npu|processor:p00|self_out[6]   ;
+; NPU:npu|processor:p00|self_value[5]        ; Merged with NPU:npu|processor:p00|self_out[5]   ;
+; NPU:npu|processor:p00|self_value[4]        ; Merged with NPU:npu|processor:p00|self_out[4]   ;
+; NPU:npu|processor:p00|self_value[3]        ; Merged with NPU:npu|processor:p00|self_out[3]   ;
+; NPU:npu|processor:p00|self_value[2]        ; Merged with NPU:npu|processor:p00|self_out[2]   ;
+; NPU:npu|processor:p00|self_value[1]        ; Merged with NPU:npu|processor:p00|self_out[1]   ;
+; UART:uart|UART_rs232_rx:I_RS232RX|State~5  ; Lost fanout                                     ;
+; UART:uart|UART_rs232_tx:I_RS232TX|Bit[3,4] ; Stuck at GND due to stuck port data_in          ;
+; UART:uart|UART_rs232_rx:I_RS232RX|Bit[4]   ; Stuck at GND due to stuck port data_in          ;
+; Total Number of Removed Registers = 196    ;                                                 ;
++--------------------------------------------+-------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -953,12 +608,12 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 277   ;
+; Total registers                              ; 694   ;
 ; Number of registers using Synchronous Clear  ; 17    ;
-; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 232   ;
+; Number of registers using Synchronous Load   ; 1     ;
+; Number of registers using Asynchronous Clear ; 649   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 169   ;
+; Number of registers using Clock Enable       ; 392   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -968,12 +623,13 @@ Encoding Type:  One-Hot
 +------------------------------------------------------------+---------+
 ; Inverted Register                                          ; Fan out ;
 +------------------------------------------------------------+---------+
-; UART:uart|UART_rs232_tx:I_RS232TX|start_bit                ; 14      ;
-; bytesCounterRX:address_out|rxDone_prev                     ; 2       ;
+; UART:uart|UART_rs232_tx:I_RS232TX|start_bit                ; 8       ;
+; bytesCounterRX:address_out|rxDone_prev                     ; 1       ;
+; bytesCounterRX:counterRX|rxDone_prev                       ; 2       ;
 ; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; 2       ;
 ; UART:uart|UART_rs232_rx:I_RS232RX|start_bit                ; 4       ;
-; bytesCounterRX:counterRX|rxDone_prev                       ; 2       ;
-; Total number of inverted registers = 5                     ;         ;
+; bytesCounterRX:uart_out_counter|rxDone_prev                ; 2       ;
+; Total number of inverted registers = 6                     ;         ;
 +------------------------------------------------------------+---------+
 
 
@@ -982,11 +638,11 @@ Encoding Type:  One-Hot
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                        ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------+
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |TOP|UART:uart|UART_rs232_tx:I_RS232TX|in_data[1] ;
 ; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |TOP|UART:uart|UART_rs232_tx:I_RS232TX|Bit[4]     ;
-; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |TOP|UART:uart|UART_rs232_rx:I_RS232RX|Bit[0]     ;
+; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |TOP|UART:uart|UART_rs232_rx:I_RS232RX|Bit[2]     ;
 ; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |TOP|UART:uart|UART_rs232_tx:I_RS232TX|counter[3] ;
 ; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |TOP|UART:uart|UART_rs232_rx:I_RS232RX|counter[0] ;
+; 10:1               ; 7 bits    ; 42 LEs        ; 42 LEs               ; 0 LEs                  ; Yes        ; |TOP|UART:uart|UART_rs232_tx:I_RS232TX|in_data[0] ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------+
 
 
@@ -1762,6 +1418,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: bytesCounterRX:uart_out_counter ;
++----------------+-------+-----------------------------------------------------+
+; Parameter Name ; Value ; Type                                                ;
++----------------+-------+-----------------------------------------------------+
+; MAX_COUNT      ; 65536 ; Signed Integer                                      ;
++----------------+-------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +----------------------------------------------------------------------------------------------------------+
 ; altsyncram Parameter Settings by Entity Instance                                                         ;
 +-------------------------------------------+--------------------------------------------------------------+
@@ -1859,15 +1525,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------------------+--------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "Memory_Out:mem_out"                                                                         ;
-+--------------+--------+----------+-------------------------------------------------------------------------------------+
-; Port         ; Type   ; Severity ; Details                                                                             ;
-+--------------+--------+----------+-------------------------------------------------------------------------------------+
-; ramOut[1..3] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+--------------+--------+----------+-------------------------------------------------------------------------------------+
-
-
 +-------------------------------------------------------+
 ; Port Connectivity Checks: "NPU:npu|processor:p33"     ;
 +----------+--------+----------+------------------------+
@@ -1962,45 +1619,37 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+-------+----------+-------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "UART:uart"                                                                            ;
-+--------+--------+----------+-------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                             ;
-+--------+--------+----------+-------------------------------------------------------------------------------------+
-; TxDone ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+--------+--------+----------+-------------------------------------------------------------------------------------+
-
-
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 277                         ;
-;     CLR               ; 75                          ;
+; arriav_ff             ; 694                         ;
+;     CLR               ; 268                         ;
 ;     CLR SCLR          ; 15                          ;
+;     CLR SLD           ; 1                           ;
 ;     ENA               ; 27                          ;
-;     ENA CLR           ; 142                         ;
+;     ENA CLR           ; 365                         ;
 ;     SCLR              ; 2                           ;
 ;     plain             ; 16                          ;
-; arriav_lcell_comb     ; 265                         ;
-;     arith             ; 126                         ;
-;         1 data inputs ; 76                          ;
-;         2 data inputs ; 50                          ;
-;     extend            ; 1                           ;
-;         7 data inputs ; 1                           ;
-;     normal            ; 138                         ;
-;         1 data inputs ; 8                           ;
-;         2 data inputs ; 5                           ;
-;         3 data inputs ; 13                          ;
-;         4 data inputs ; 49                          ;
-;         5 data inputs ; 27                          ;
-;         6 data inputs ; 36                          ;
+; arriav_lcell_comb     ; 473                         ;
+;     arith             ; 301                         ;
+;         1 data inputs ; 106                         ;
+;         2 data inputs ; 195                         ;
+;     extend            ; 3                           ;
+;         7 data inputs ; 3                           ;
+;     normal            ; 169                         ;
+;         1 data inputs ; 9                           ;
+;         2 data inputs ; 8                           ;
+;         3 data inputs ; 24                          ;
+;         4 data inputs ; 47                          ;
+;         5 data inputs ; 25                          ;
+;         6 data inputs ; 56                          ;
 ; boundary_port         ; 50                          ;
-; stratixv_ram_block    ; 80                          ;
+; stratixv_ram_block    ; 128                         ;
 ;                       ;                             ;
 ; Max LUT depth         ; 4.00                        ;
-; Average LUT depth     ; 1.96                        ;
+; Average LUT depth     ; 1.92                        ;
 +-----------------------+-----------------------------+
 
 
@@ -2009,7 +1658,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -2019,10 +1668,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Wed Jun 11 18:38:21 2025
+    Info: Processing started: Mon Jun 16 01:29:45 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off NPU_MATRIX -c NPU_MATRIX
-Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
+Info (20032): Parallel compilation is enabled and will use up to 16 processors
 Info (12021): Found 1 design units, including 1 entities, in source file processor.sv
     Info (12023): Found entity 1: processor File: C:/Users/hp/Documents/NPU_MATRIX/processor.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_npu.sv
@@ -2052,9 +1700,13 @@ Info (12021): Found 1 design units, including 1 entities, in source file npu.sv
     Info (12023): Found entity 1: NPU File: C:/Users/hp/Documents/NPU_MATRIX/NPU.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file output_files/memory_out.sv
     Info (12023): Found entity 1: Memory_Out File: C:/Users/hp/Documents/NPU_MATRIX/output_files/Memory_Out.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file baud_counter.sv
+    Info (12023): Found entity 1: baud_counter File: C:/Users/hp/Documents/NPU_MATRIX/baud_counter.sv Line: 1
 Info (12127): Elaborating entity "TOP" for the top level hierarchy
-Warning (10230): Verilog HDL assignment warning at TOP.sv(34): truncated value with size 32 to match size of target (16) File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 34
-Info (12128): Elaborating entity "UART" for hierarchy "UART:uart" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 55
+Warning (10036): Verilog HDL or VHDL warning at TOP.sv(28): object "temp" assigned a value but never read File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 28
+Warning (10230): Verilog HDL assignment warning at TOP.sv(36): truncated value with size 32 to match size of target (16) File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 36
+Warning (10230): Verilog HDL assignment warning at TOP.sv(119): truncated value with size 32 to match size of target (2) File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 119
+Info (12128): Elaborating entity "UART" for hierarchy "UART:uart" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 56
 Info (12128): Elaborating entity "UART_rs232_rx" for hierarchy "UART:uart|UART_rs232_rx:I_RS232RX" File: C:/Users/hp/Documents/NPU_MATRIX/UART.sv Line: 45
 Warning (10230): Verilog HDL assignment warning at UART_rs232_rx.sv(99): truncated value with size 32 to match size of target (4) File: C:/Users/hp/Documents/NPU_MATRIX/UART_rs232_rx.sv Line: 99
 Warning (10230): Verilog HDL assignment warning at UART_rs232_rx.sv(110): truncated value with size 32 to match size of target (5) File: C:/Users/hp/Documents/NPU_MATRIX/UART_rs232_rx.sv Line: 110
@@ -2063,8 +1715,8 @@ Warning (10235): Verilog HDL Always Construct warning at UART_rs232_tx.sv(52): v
 Warning (10230): Verilog HDL assignment warning at UART_rs232_tx.sv(105): truncated value with size 32 to match size of target (4) File: C:/Users/hp/Documents/NPU_MATRIX/UART_rs232_tx.sv Line: 105
 Warning (10230): Verilog HDL assignment warning at UART_rs232_tx.sv(125): truncated value with size 32 to match size of target (5) File: C:/Users/hp/Documents/NPU_MATRIX/UART_rs232_tx.sv Line: 125
 Info (12128): Elaborating entity "UART_BaudRate_generator" for hierarchy "UART:uart|UART_BaudRate_generator:I_BAUDGEN" File: C:/Users/hp/Documents/NPU_MATRIX/UART.sv Line: 65
-Info (12128): Elaborating entity "bytesCounterRX" for hierarchy "bytesCounterRX:counterRX" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 62
-Info (12128): Elaborating entity "Memory" for hierarchy "Memory:mem" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 74
+Info (12128): Elaborating entity "bytesCounterRX" for hierarchy "bytesCounterRX:counterRX" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 63
+Info (12128): Elaborating entity "Memory" for hierarchy "Memory:mem" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 75
 Info (12128): Elaborating entity "RAM1" for hierarchy "Memory:mem|RAM1:ram1" File: C:/Users/hp/Documents/NPU_MATRIX/Memory.sv Line: 45
 Info (12128): Elaborating entity "altsyncram" for hierarchy "Memory:mem|RAM1:ram1|altsyncram:altsyncram_component" File: C:/Users/hp/Documents/NPU_MATRIX/RAM1.v Line: 86
 Info (12130): Elaborated megafunction instantiation "Memory:mem|RAM1:ram1|altsyncram:altsyncram_component" File: C:/Users/hp/Documents/NPU_MATRIX/RAM1.v Line: 86
@@ -2086,82 +1738,40 @@ Info (12133): Instantiated megafunction "Memory:mem|RAM1:ram1|altsyncram:altsync
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_adl1.tdf
     Info (12023): Found entity 1: altsyncram_adl1 File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 28
 Info (12128): Elaborating entity "altsyncram_adl1" for hierarchy "Memory:mem|RAM1:ram1|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated" File: c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
-Info (12128): Elaborating entity "NPU" for hierarchy "NPU:npu" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 87
+Info (12128): Elaborating entity "NPU" for hierarchy "NPU:npu" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 88
 Info (12128): Elaborating entity "counter" for hierarchy "NPU:npu|counter:counter_inst" File: C:/Users/hp/Documents/NPU_MATRIX/NPU.sv Line: 36
 Warning (10230): Verilog HDL assignment warning at counter.sv(15): truncated value with size 32 to match size of target (4) File: C:/Users/hp/Documents/NPU_MATRIX/counter.sv Line: 15
 Info (12128): Elaborating entity "processor" for hierarchy "NPU:npu|processor:p00" File: C:/Users/hp/Documents/NPU_MATRIX/NPU.sv Line: 51
 Warning (10230): Verilog HDL assignment warning at processor.sv(21): truncated value with size 32 to match size of target (16) File: C:/Users/hp/Documents/NPU_MATRIX/processor.sv Line: 21
-Info (12128): Elaborating entity "bytesCounterRX" for hierarchy "bytesCounterRX:address_out" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 96
-Info (12128): Elaborating entity "Memory_Out" for hierarchy "Memory_Out:mem_out" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 105
-Info (12128): Elaborating entity "sevenSeg" for hierarchy "sevenSeg:display0" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 115
-Warning (14284): Synthesized away the following node(s):
-    Warning (14285): Synthesized away the following RAM node(s):
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[0]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 37
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[1]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 59
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[2]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 81
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[3]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 103
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[4]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 125
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[5]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 147
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[6]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 169
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[7]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 191
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[8]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 213
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[9]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 235
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[10]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 257
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[11]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 279
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[12]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 301
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[13]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 323
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[14]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 345
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[15]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 367
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[0]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 37
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[1]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 59
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[2]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 81
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[3]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 103
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[4]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 125
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[5]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 147
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[6]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 169
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[7]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 191
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[8]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 213
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[9]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 235
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[10]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 257
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[11]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 279
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[12]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 301
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[13]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 323
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[14]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 345
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[15]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 367
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[0]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 37
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[1]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 59
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[2]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 81
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[3]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 103
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[4]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 125
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[5]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 147
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[6]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 169
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[7]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 191
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[8]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 213
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[9]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 235
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[10]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 257
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[11]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 279
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[12]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 301
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[13]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 323
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[14]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 345
-        Warning (14320): Synthesized away node "Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated|q_a[15]" File: C:/Users/hp/Documents/NPU_MATRIX/db/altsyncram_adl1.tdf Line: 367
+Info (12128): Elaborating entity "bytesCounterRX" for hierarchy "bytesCounterRX:address_out" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 97
+Info (12128): Elaborating entity "Memory_Out" for hierarchy "Memory_Out:mem_out" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 106
+Info (12128): Elaborating entity "sevenSeg" for hierarchy "sevenSeg:display0" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 126
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 577 registers lost all their fanouts during netlist optimizations.
+Info (17049): 1 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file C:/Users/hp/Documents/NPU_MATRIX/output_files/NPU_MATRIX.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 1 input pin(s) that do not drive logic
+Warning (21074): Design contains 9 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "press" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 5
-Info (21057): Implemented 502 device resources after synthesis - the final resource count might be different
+    Warning (15610): No output dependent on input pin "addresstest[0]" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 6
+    Warning (15610): No output dependent on input pin "addresstest[1]" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 6
+    Warning (15610): No output dependent on input pin "addresstest[2]" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 6
+    Warning (15610): No output dependent on input pin "addresstest[3]" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 6
+    Warning (15610): No output dependent on input pin "addresstest[4]" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 6
+    Warning (15610): No output dependent on input pin "addresstest[5]" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 6
+    Warning (15610): No output dependent on input pin "addresstest[6]" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 6
+    Warning (15610): No output dependent on input pin "addresstest[7]" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 6
+Info (21057): Implemented 999 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 12 input pins
     Info (21059): Implemented 38 output pins
-    Info (21061): Implemented 372 logic cells
-    Info (21064): Implemented 80 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 63 warnings
+    Info (21061): Implemented 821 logic cells
+    Info (21064): Implemented 128 RAM segments
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 22 warnings
     Info: Peak virtual memory: 4951 megabytes
-    Info: Processing ended: Wed Jun 11 18:38:44 2025
-    Info: Elapsed time: 00:00:23
-    Info: Total CPU time (on all processors): 00:00:47
+    Info: Processing ended: Mon Jun 16 01:30:07 2025
+    Info: Elapsed time: 00:00:22
+    Info: Total CPU time (on all processors): 00:00:48
 
 
 +------------------------------------------+

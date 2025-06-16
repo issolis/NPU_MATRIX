@@ -24,7 +24,9 @@ module TOP(
 	 logic done; 
 	 logic en_mem_out; 
 	 logic [15:0] address_mem_in;
-	 logic [15:0] address_mem_out;  
+	 logic [15:0] address_mem_out; 
+	 logic [31:0] address_uart_out, temp;
+    logic [1:0] i; 
 	 
 	
 	 
@@ -33,13 +35,12 @@ module TOP(
 	 assign we_mem = byte_count < 65536;  
 	 assign address_mem_in = we_mem ? byte_count[15:0] : addressOutCount * 2; 
 	 assign en_mem_out = ~we_mem && addressOutCount < 8192; 
-	 assign txEn = ~ en_mem_out; 
-	 
-	 
-	 assign address_mem_out = en_mem_out ? addressOutCount[15:0] : {7'b0, addresstest}; 
-	  
-	 assign endF = addressOutCount < 8192; 
+	 assign address_mem_out = addressOutCount < 8192 ? addressOutCount[15:0] : address_uart_out[13:1];
+	 assign txEn = addressOutCount >= 8192 && (address_uart_out <= 65536);
+	 assign temp = address_uart_out < 65536 ? address_mem_out : addresstest; 
+	 assign endF = en_mem_out; 
 	
+	 
  
     
     UART uart (
@@ -106,7 +107,17 @@ module TOP(
 
 	
 	// TX 
-
+	bytesCounterRX #(
+		  .MAX_COUNT(65536)  
+	) uart_out_counter (
+		  .clk(clk),
+		  .rst(rst),
+		  .rxDone(txDone),
+		  .byte_count(address_uart_out) 
+	);
+	
+	assign i = (address_uart_out - address_uart_out%16384)/16384 ;
+   assign txData =  address_uart_out[0] ? ramOut1[i][15:8] : ramOut1[i][7:0];
 	
 	
   	 sevenSeg display0 (
@@ -129,6 +140,6 @@ module TOP(
 		seg3
 	 );
 	 	
-    assign txData = ramOut[0][7:0];
+    
 
 endmodule

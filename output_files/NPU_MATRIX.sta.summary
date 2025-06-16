@@ -3,131 +3,131 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1100mV 85C Model Setup 'clk'
-Slack : -6.711
-TNS   : -6351.389
+Slack : -7.292
+TNS   : -10808.065
 
 Type  : Slow 1100mV 85C Model Setup 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : -4.202
-TNS   : -103.027
+Slack : -6.209
+TNS   : -138.882
 
 Type  : Slow 1100mV 85C Model Hold 'clk'
-Slack : 0.305
+Slack : 0.275
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Hold 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : 0.678
+Slack : 0.775
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Recovery 'clk'
-Slack : -0.726
-TNS   : -4.345
+Slack : -0.630
+TNS   : -4.396
 
 Type  : Slow 1100mV 85C Model Removal 'clk'
-Slack : 0.851
+Slack : 0.788
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
 Slack : -2.174
-TNS   : -8087.975
+TNS   : -13016.626
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : -0.442
-TNS   : -29.257
+Slack : -0.447
+TNS   : -25.614
 
 Type  : Slow 1100mV 0C Model Setup 'clk'
-Slack : -6.489
-TNS   : -6010.968
+Slack : -7.091
+TNS   : -10244.492
 
 Type  : Slow 1100mV 0C Model Setup 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : -4.515
-TNS   : -110.060
+Slack : -6.475
+TNS   : -142.904
 
 Type  : Slow 1100mV 0C Model Hold 'clk'
-Slack : 0.029
+Slack : 0.134
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Hold 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : 0.643
+Slack : 0.759
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Recovery 'clk'
-Slack : -0.711
-TNS   : -4.253
+Slack : -0.623
+TNS   : -4.344
 
 Type  : Slow 1100mV 0C Model Removal 'clk'
-Slack : 0.817
+Slack : 0.733
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
 Slack : -2.174
-TNS   : -8080.578
+TNS   : -13015.235
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : -0.452
-TNS   : -29.327
+Slack : -0.447
+TNS   : -25.776
 
 Type  : Fast 1100mV 85C Model Setup 'clk'
-Slack : -4.046
-TNS   : -2949.789
+Slack : -4.477
+TNS   : -5178.328
 
 Type  : Fast 1100mV 85C Model Setup 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : -2.325
-TNS   : -51.078
+Slack : -3.515
+TNS   : -75.910
 
 Type  : Fast 1100mV 85C Model Hold 'clk'
-Slack : 0.177
+Slack : 0.163
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Hold 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : 0.356
+Slack : 0.394
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Recovery 'clk'
-Slack : 0.077
+Slack : 0.070
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Removal 'clk'
-Slack : 0.459
+Slack : 0.445
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
 Slack : -2.174
-TNS   : -7967.253
+TNS   : -12694.357
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : -0.164
-TNS   : -4.456
+Slack : -0.167
+TNS   : -1.772
 
 Type  : Fast 1100mV 0C Model Setup 'clk'
-Slack : -3.507
-TNS   : -2365.262
+Slack : -3.857
+TNS   : -4132.227
 
 Type  : Fast 1100mV 0C Model Setup 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : -2.369
-TNS   : -53.124
+Slack : -3.431
+TNS   : -74.525
 
 Type  : Fast 1100mV 0C Model Hold 'clk'
-Slack : 0.165
+Slack : 0.151
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Hold 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : 0.312
+Slack : 0.349
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Recovery 'clk'
-Slack : 0.127
+Slack : 0.124
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Removal 'clk'
-Slack : 0.422
+Slack : 0.401
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
 Slack : -2.174
-TNS   : -7971.392
+TNS   : -12700.614
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
-Slack : -0.118
-TNS   : -2.871
+Slack : -0.115
+TNS   : -1.167
 
 ------------------------------------------------------------
