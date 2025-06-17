@@ -82,7 +82,7 @@ module NPU
 	
 	// Colum 1
 	
-	processor #(.WEIGHT(1)) p01(
+	processor #(.WEIGHT(2)) p01(
         .clk(clk),
         .rst(rst),
         .enable(en_col_1),
@@ -92,7 +92,7 @@ module NPU
         .self_out(self_out_01)
     );
 	 
-	processor #(.WEIGHT(1)) p11(
+	processor #(.WEIGHT(2)) p11(
        .clk(clk),
        .rst(rst),
        .enable(en_col_1),
@@ -102,7 +102,7 @@ module NPU
        .self_out(self_out_11)
    );
 	 
-	processor #(.WEIGHT(1)) p21(
+	processor #(.WEIGHT(2)) p21(
        .clk(clk),
        .rst(rst),
        .enable(en_col_1),
@@ -112,7 +112,7 @@ module NPU
        .self_out(self_out_21)
    );
 	
-	processor #(.WEIGHT(1)) p31(
+	processor #(.WEIGHT(2)) p31(
        .clk(clk),
        .rst(rst),
        .enable(en_col_1),
@@ -124,7 +124,7 @@ module NPU
 	
 	//Column 2
 	
-	processor #(.WEIGHT(1)) p02(
+	processor #(.WEIGHT(3)) p02(
         .clk(clk),
         .rst(rst),
         .enable(en_col_2),
@@ -134,7 +134,7 @@ module NPU
         .self_out(self_out_02)
     );
 	 
-	processor #(.WEIGHT(1)) p12(
+	processor #(.WEIGHT(3)) p12(
        .clk(clk),
        .rst(rst),
        .enable(en_col_2),
@@ -144,7 +144,7 @@ module NPU
        .self_out(self_out_12)
    );
 	 
-	processor #(.WEIGHT(1)) p22(
+	processor #(.WEIGHT(3)) p22(
        .clk(clk),
        .rst(rst),
        .enable(en_col_2),
@@ -154,7 +154,7 @@ module NPU
        .self_out(self_out_22)
    );
 	
-	processor #(.WEIGHT(1)) p32(
+	processor #(.WEIGHT(3)) p32(
        .clk(clk),
        .rst(rst),
        .enable(en_col_2),
@@ -166,7 +166,7 @@ module NPU
 	
 	// Column 3
 	
-	processor #(.WEIGHT(1)) p03(
+	processor #(.WEIGHT(4)) p03(
         .clk(clk),
         .rst(rst),
         .enable(en_col_3),
@@ -176,7 +176,7 @@ module NPU
         .self_out()
     );
 	 
-	processor #(.WEIGHT(1)) p13(
+	processor #(.WEIGHT(4)) p13(
        .clk(clk),
        .rst(rst),
        .enable(en_col_3),
@@ -186,7 +186,7 @@ module NPU
        .self_out()
    );
 	 
-	processor #(.WEIGHT(1)) p23(
+	processor #(.WEIGHT(4)) p23(
        .clk(clk),
        .rst(rst),
        .enable(en_col_3),
@@ -196,7 +196,7 @@ module NPU
        .self_out()
    );
 	
-	processor #(.WEIGHT(1)) p33(
+	processor #(.WEIGHT(4)) p33(
        .clk(clk),
        .rst(rst),
        .enable(en_col_3),

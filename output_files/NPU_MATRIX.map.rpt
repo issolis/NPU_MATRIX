@@ -1,5 +1,5 @@
 Analysis & Synthesis report for NPU_MATRIX
-Mon Jun 16 01:30:07 2025
+Mon Jun 16 19:10:47 2025
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -17,62 +17,63 @@ Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
   9. Analysis & Synthesis IP Cores Summary
  10. State Machine - |TOP|UART:uart|UART_rs232_rx:I_RS232RX|State
  11. Registers Removed During Synthesis
- 12. General Register Statistics
- 13. Inverted Register Statistics
- 14. Multiplexer Restructuring Statistics (Restructuring Performed)
- 15. Source assignments for Memory:mem|RAM1:ram1|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
- 16. Source assignments for Memory:mem|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
- 17. Source assignments for Memory:mem|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
- 18. Source assignments for Memory:mem|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
- 19. Source assignments for Memory_Out:mem_out|RAM1:ram1|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
- 20. Source assignments for Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
- 21. Source assignments for Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
- 22. Source assignments for Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
- 23. Parameter Settings for User Entity Instance: UART:uart|UART_rs232_rx:I_RS232RX
- 24. Parameter Settings for User Entity Instance: UART:uart|UART_rs232_tx:I_RS232TX
- 25. Parameter Settings for User Entity Instance: bytesCounterRX:counterRX
- 26. Parameter Settings for User Entity Instance: Memory:mem|RAM1:ram1|altsyncram:altsyncram_component
- 27. Parameter Settings for User Entity Instance: Memory:mem|RAM1:ram2|altsyncram:altsyncram_component
- 28. Parameter Settings for User Entity Instance: Memory:mem|RAM1:ram3|altsyncram:altsyncram_component
- 29. Parameter Settings for User Entity Instance: Memory:mem|RAM1:ram4|altsyncram:altsyncram_component
- 30. Parameter Settings for User Entity Instance: NPU:npu|counter:counter_inst
- 31. Parameter Settings for User Entity Instance: NPU:npu|processor:p00
- 32. Parameter Settings for User Entity Instance: NPU:npu|processor:p10
- 33. Parameter Settings for User Entity Instance: NPU:npu|processor:p20
- 34. Parameter Settings for User Entity Instance: NPU:npu|processor:p30
- 35. Parameter Settings for User Entity Instance: NPU:npu|processor:p01
- 36. Parameter Settings for User Entity Instance: NPU:npu|processor:p11
- 37. Parameter Settings for User Entity Instance: NPU:npu|processor:p21
- 38. Parameter Settings for User Entity Instance: NPU:npu|processor:p31
- 39. Parameter Settings for User Entity Instance: NPU:npu|processor:p02
- 40. Parameter Settings for User Entity Instance: NPU:npu|processor:p12
- 41. Parameter Settings for User Entity Instance: NPU:npu|processor:p22
- 42. Parameter Settings for User Entity Instance: NPU:npu|processor:p32
- 43. Parameter Settings for User Entity Instance: NPU:npu|processor:p03
- 44. Parameter Settings for User Entity Instance: NPU:npu|processor:p13
- 45. Parameter Settings for User Entity Instance: NPU:npu|processor:p23
- 46. Parameter Settings for User Entity Instance: NPU:npu|processor:p33
- 47. Parameter Settings for User Entity Instance: bytesCounterRX:address_out
- 48. Parameter Settings for User Entity Instance: Memory_Out:mem_out|RAM1:ram1|altsyncram:altsyncram_component
- 49. Parameter Settings for User Entity Instance: Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component
- 50. Parameter Settings for User Entity Instance: Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component
- 51. Parameter Settings for User Entity Instance: Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component
- 52. Parameter Settings for User Entity Instance: bytesCounterRX:uart_out_counter
- 53. altsyncram Parameter Settings by Entity Instance
- 54. Port Connectivity Checks: "NPU:npu|processor:p33"
- 55. Port Connectivity Checks: "NPU:npu|processor:p23"
- 56. Port Connectivity Checks: "NPU:npu|processor:p13"
- 57. Port Connectivity Checks: "NPU:npu|processor:p03"
- 58. Port Connectivity Checks: "NPU:npu|processor:p02"
- 59. Port Connectivity Checks: "NPU:npu|processor:p01"
- 60. Port Connectivity Checks: "NPU:npu|processor:p00"
- 61. Port Connectivity Checks: "NPU:npu"
- 62. Port Connectivity Checks: "UART:uart|UART_BaudRate_generator:I_BAUDGEN"
- 63. Port Connectivity Checks: "UART:uart|UART_rs232_rx:I_RS232RX"
- 64. Post-Synthesis Netlist Statistics for Top Partition
- 65. Elapsed Time Per Partition
- 66. Analysis & Synthesis Messages
- 67. Analysis & Synthesis Suppressed Messages
+ 12. Removed Registers Triggering Further Register Optimizations
+ 13. General Register Statistics
+ 14. Inverted Register Statistics
+ 15. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 16. Source assignments for Memory:mem|RAM1:ram1|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
+ 17. Source assignments for Memory:mem|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
+ 18. Source assignments for Memory:mem|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
+ 19. Source assignments for Memory:mem|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
+ 20. Source assignments for Memory_Out:mem_out|RAM1:ram1|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
+ 21. Source assignments for Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
+ 22. Source assignments for Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
+ 23. Source assignments for Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated
+ 24. Parameter Settings for User Entity Instance: UART:uart|UART_rs232_rx:I_RS232RX
+ 25. Parameter Settings for User Entity Instance: UART:uart|UART_rs232_tx:I_RS232TX
+ 26. Parameter Settings for User Entity Instance: bytesCounterRX:counterRX
+ 27. Parameter Settings for User Entity Instance: Memory:mem|RAM1:ram1|altsyncram:altsyncram_component
+ 28. Parameter Settings for User Entity Instance: Memory:mem|RAM1:ram2|altsyncram:altsyncram_component
+ 29. Parameter Settings for User Entity Instance: Memory:mem|RAM1:ram3|altsyncram:altsyncram_component
+ 30. Parameter Settings for User Entity Instance: Memory:mem|RAM1:ram4|altsyncram:altsyncram_component
+ 31. Parameter Settings for User Entity Instance: NPU:npu|counter:counter_inst
+ 32. Parameter Settings for User Entity Instance: NPU:npu|processor:p00
+ 33. Parameter Settings for User Entity Instance: NPU:npu|processor:p10
+ 34. Parameter Settings for User Entity Instance: NPU:npu|processor:p20
+ 35. Parameter Settings for User Entity Instance: NPU:npu|processor:p30
+ 36. Parameter Settings for User Entity Instance: NPU:npu|processor:p01
+ 37. Parameter Settings for User Entity Instance: NPU:npu|processor:p11
+ 38. Parameter Settings for User Entity Instance: NPU:npu|processor:p21
+ 39. Parameter Settings for User Entity Instance: NPU:npu|processor:p31
+ 40. Parameter Settings for User Entity Instance: NPU:npu|processor:p02
+ 41. Parameter Settings for User Entity Instance: NPU:npu|processor:p12
+ 42. Parameter Settings for User Entity Instance: NPU:npu|processor:p22
+ 43. Parameter Settings for User Entity Instance: NPU:npu|processor:p32
+ 44. Parameter Settings for User Entity Instance: NPU:npu|processor:p03
+ 45. Parameter Settings for User Entity Instance: NPU:npu|processor:p13
+ 46. Parameter Settings for User Entity Instance: NPU:npu|processor:p23
+ 47. Parameter Settings for User Entity Instance: NPU:npu|processor:p33
+ 48. Parameter Settings for User Entity Instance: bytesCounterRX:address_out
+ 49. Parameter Settings for User Entity Instance: Memory_Out:mem_out|RAM1:ram1|altsyncram:altsyncram_component
+ 50. Parameter Settings for User Entity Instance: Memory_Out:mem_out|RAM1:ram2|altsyncram:altsyncram_component
+ 51. Parameter Settings for User Entity Instance: Memory_Out:mem_out|RAM1:ram3|altsyncram:altsyncram_component
+ 52. Parameter Settings for User Entity Instance: Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component
+ 53. Parameter Settings for User Entity Instance: bytesCounterRX:uart_out_counter
+ 54. altsyncram Parameter Settings by Entity Instance
+ 55. Port Connectivity Checks: "NPU:npu|processor:p33"
+ 56. Port Connectivity Checks: "NPU:npu|processor:p23"
+ 57. Port Connectivity Checks: "NPU:npu|processor:p13"
+ 58. Port Connectivity Checks: "NPU:npu|processor:p03"
+ 59. Port Connectivity Checks: "NPU:npu|processor:p02"
+ 60. Port Connectivity Checks: "NPU:npu|processor:p01"
+ 61. Port Connectivity Checks: "NPU:npu|processor:p00"
+ 62. Port Connectivity Checks: "NPU:npu"
+ 63. Port Connectivity Checks: "UART:uart|UART_BaudRate_generator:I_BAUDGEN"
+ 64. Port Connectivity Checks: "UART:uart|UART_rs232_rx:I_RS232RX"
+ 65. Post-Synthesis Netlist Statistics for Top Partition
+ 66. Elapsed Time Per Partition
+ 67. Analysis & Synthesis Messages
+ 68. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -99,13 +100,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +---------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Jun 16 01:30:07 2025          ;
+; Analysis & Synthesis Status     ; Successful - Mon Jun 16 19:10:47 2025          ;
 ; Quartus Prime Version           ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                   ; NPU_MATRIX                                     ;
 ; Top-level Entity Name           ; TOP                                            ;
 ; Family                          ; Cyclone V                                      ;
 ; Logic utilization (in ALMs)     ; N/A                                            ;
-; Total registers                 ; 694                                            ;
+; Total registers                 ; 674                                            ;
 ; Total pins                      ; 50                                             ;
 ; Total virtual pins              ; 0                                              ;
 ; Total block memory bits         ; 1,048,576                                      ;
@@ -227,7 +228,8 @@ https://fpgasoftware.intel.com/eula.
 ;     Processor 5            ;   0.0%      ;
 ;     Processor 6            ;   0.0%      ;
 ;     Processor 7            ;   0.0%      ;
-;     Processors 8-16        ;   0.0%      ;
+;     Processor 8            ;   0.0%      ;
+;     Processors 9-16        ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -267,16 +269,16 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 390       ;
+; Estimate of Logic utilization (ALMs needed) ; 380       ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 469       ;
+; Combinational ALUT usage for logic          ; 476       ;
 ;     -- 7 input functions                    ; 3         ;
 ;     -- 6 input functions                    ; 56        ;
 ;     -- 5 input functions                    ; 25        ;
 ;     -- 4 input functions                    ; 47        ;
-;     -- <=3 input functions                  ; 338       ;
+;     -- <=3 input functions                  ; 345       ;
 ;                                             ;           ;
-; Dedicated logic registers                   ; 694       ;
+; Dedicated logic registers                   ; 674       ;
 ;                                             ;           ;
 ; I/O pins                                    ; 50        ;
 ; Total MLAB memory bits                      ; 0         ;
@@ -285,9 +287,9 @@ https://fpgasoftware.intel.com/eula.
 ; Total DSP Blocks                            ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 785       ;
-; Total fan-out                               ; 6128      ;
-; Average fan-out                             ; 4.41      ;
+; Maximum fan-out                             ; 765       ;
+; Total fan-out                               ; 6122      ;
+; Average fan-out                             ; 4.44      ;
 +---------------------------------------------+-----------+
 
 
@@ -296,7 +298,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------+-------------------------+--------------+
 ; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                              ; Entity Name             ; Library Name ;
 +----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------+-------------------------+--------------+
-; |TOP                                         ; 469 (40)            ; 694 (0)                   ; 1048576           ; 0          ; 50   ; 0            ; |TOP                                                                                             ; TOP                     ; work         ;
+; |TOP                                         ; 476 (41)            ; 674 (0)                   ; 1048576           ; 0          ; 50   ; 0            ; |TOP                                                                                             ; TOP                     ; work         ;
 ;    |Memory:mem|                              ; 6 (6)               ; 16 (16)                   ; 524288            ; 0          ; 0    ; 0            ; |TOP|Memory:mem                                                                                  ; Memory                  ; work         ;
 ;       |RAM1:ram1|                            ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory:mem|RAM1:ram1                                                                        ; RAM1                    ; work         ;
 ;          |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory:mem|RAM1:ram1|altsyncram:altsyncram_component                                        ; altsyncram              ; work         ;
@@ -323,24 +325,24 @@ https://fpgasoftware.intel.com/eula.
 ;       |RAM1:ram4|                            ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory_Out:mem_out|RAM1:ram4                                                                ; RAM1                    ; work         ;
 ;          |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component                                ; altsyncram              ; work         ;
 ;             |altsyncram_adl1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 131072            ; 0          ; 0    ; 0            ; |TOP|Memory_Out:mem_out|RAM1:ram4|altsyncram:altsyncram_component|altsyncram_adl1:auto_generated ; altsyncram_adl1         ; work         ;
-;    |NPU:npu|                                 ; 201 (5)             ; 516 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu                                                                                     ; NPU                     ; work         ;
+;    |NPU:npu|                                 ; 207 (5)             ; 496 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu                                                                                     ; NPU                     ; work         ;
 ;       |counter:counter_inst|                 ; 4 (4)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|counter:counter_inst                                                                ; counter                 ; work         ;
 ;       |processor:p00|                        ; 0 (0)               ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p00                                                                       ; processor               ; work         ;
-;       |processor:p01|                        ; 0 (0)               ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p01                                                                       ; processor               ; work         ;
-;       |processor:p02|                        ; 0 (0)               ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p02                                                                       ; processor               ; work         ;
-;       |processor:p03|                        ; 0 (0)               ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p03                                                                       ; processor               ; work         ;
+;       |processor:p01|                        ; 0 (0)               ; 31 (31)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p01                                                                       ; processor               ; work         ;
+;       |processor:p02|                        ; 15 (15)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p02                                                                       ; processor               ; work         ;
+;       |processor:p03|                        ; 0 (0)               ; 28 (28)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p03                                                                       ; processor               ; work         ;
 ;       |processor:p10|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p10                                                                       ; processor               ; work         ;
-;       |processor:p11|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p11                                                                       ; processor               ; work         ;
+;       |processor:p11|                        ; 15 (15)             ; 31 (31)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p11                                                                       ; processor               ; work         ;
 ;       |processor:p12|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p12                                                                       ; processor               ; work         ;
-;       |processor:p13|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p13                                                                       ; processor               ; work         ;
+;       |processor:p13|                        ; 14 (14)             ; 28 (28)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p13                                                                       ; processor               ; work         ;
 ;       |processor:p20|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p20                                                                       ; processor               ; work         ;
-;       |processor:p21|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p21                                                                       ; processor               ; work         ;
+;       |processor:p21|                        ; 15 (15)             ; 31 (31)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p21                                                                       ; processor               ; work         ;
 ;       |processor:p22|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p22                                                                       ; processor               ; work         ;
-;       |processor:p23|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p23                                                                       ; processor               ; work         ;
+;       |processor:p23|                        ; 14 (14)             ; 28 (28)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p23                                                                       ; processor               ; work         ;
 ;       |processor:p30|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p30                                                                       ; processor               ; work         ;
-;       |processor:p31|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p31                                                                       ; processor               ; work         ;
+;       |processor:p31|                        ; 15 (15)             ; 31 (31)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p31                                                                       ; processor               ; work         ;
 ;       |processor:p32|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p32                                                                       ; processor               ; work         ;
-;       |processor:p33|                        ; 16 (16)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p33                                                                       ; processor               ; work         ;
+;       |processor:p33|                        ; 14 (14)             ; 28 (28)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|NPU:npu|processor:p33                                                                       ; processor               ; work         ;
 ;    |UART:uart|                               ; 77 (0)              ; 63 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |TOP|UART:uart                                                                                   ; UART                    ; work         ;
 ;       |UART_BaudRate_generator:I_BAUDGEN|    ; 21 (21)             ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|UART:uart|UART_BaudRate_generator:I_BAUDGEN                                                 ; UART_BaudRate_generator ; work         ;
 ;       |UART_rs232_rx:I_RS232RX|              ; 17 (17)             ; 27 (27)                   ; 0                 ; 0          ; 0    ; 0            ; |TOP|UART:uart|UART_rs232_rx:I_RS232RX                                                           ; UART_rs232_rx           ; work         ;
@@ -404,9 +406,35 @@ Encoding Type:  One-Hot
 +--------------------------------------------+-------------------------------------------------+
 ; Register name                              ; Reason for Removal                              ;
 +--------------------------------------------+-------------------------------------------------+
+; NPU:npu|processor:p03|sum_out[0,1]         ; Stuck at GND due to stuck port data_in          ;
+; NPU:npu|processor:p01|sum_out[0]           ; Stuck at GND due to stuck port data_in          ;
+; NPU:npu|processor:p13|sum_out[0,1]         ; Stuck at GND due to stuck port data_in          ;
+; NPU:npu|processor:p11|sum_out[0]           ; Stuck at GND due to stuck port data_in          ;
+; NPU:npu|processor:p23|sum_out[0,1]         ; Stuck at GND due to stuck port data_in          ;
+; NPU:npu|processor:p21|sum_out[0]           ; Stuck at GND due to stuck port data_in          ;
+; NPU:npu|processor:p33|sum_out[0,1]         ; Stuck at GND due to stuck port data_in          ;
+; NPU:npu|processor:p31|sum_out[0]           ; Stuck at GND due to stuck port data_in          ;
+; NPU:npu|processor:p03|self_value[15]       ; Lost fanout                                     ;
+; NPU:npu|processor:p02|self_out[15]         ; Lost fanout                                     ;
+; NPU:npu|processor:p03|self_value[14]       ; Lost fanout                                     ;
+; NPU:npu|processor:p02|self_out[14]         ; Lost fanout                                     ;
+; NPU:npu|processor:p01|self_value[15]       ; Lost fanout                                     ;
+; NPU:npu|processor:p33|self_value[15]       ; Lost fanout                                     ;
+; NPU:npu|processor:p32|self_out[15]         ; Lost fanout                                     ;
+; NPU:npu|processor:p33|self_value[14]       ; Lost fanout                                     ;
+; NPU:npu|processor:p32|self_out[14]         ; Lost fanout                                     ;
+; NPU:npu|processor:p23|self_value[15]       ; Lost fanout                                     ;
+; NPU:npu|processor:p22|self_out[15]         ; Lost fanout                                     ;
+; NPU:npu|processor:p23|self_value[14]       ; Lost fanout                                     ;
+; NPU:npu|processor:p22|self_out[14]         ; Lost fanout                                     ;
+; NPU:npu|processor:p13|self_value[15]       ; Lost fanout                                     ;
+; NPU:npu|processor:p12|self_out[15]         ; Lost fanout                                     ;
+; NPU:npu|processor:p13|self_value[14]       ; Lost fanout                                     ;
+; NPU:npu|processor:p12|self_out[14]         ; Lost fanout                                     ;
+; NPU:npu|processor:p31|self_value[15]       ; Lost fanout                                     ;
+; NPU:npu|processor:p21|self_value[15]       ; Lost fanout                                     ;
+; NPU:npu|processor:p11|self_value[15]       ; Lost fanout                                     ;
 ; NPU:npu|processor:p32|self_out[0]          ; Merged with NPU:npu|processor:p32|self_value[0] ;
-; NPU:npu|processor:p32|self_value[15]       ; Merged with NPU:npu|processor:p32|self_out[15]  ;
-; NPU:npu|processor:p32|self_value[14]       ; Merged with NPU:npu|processor:p32|self_out[14]  ;
 ; NPU:npu|processor:p32|self_value[13]       ; Merged with NPU:npu|processor:p32|self_out[13]  ;
 ; NPU:npu|processor:p32|self_value[12]       ; Merged with NPU:npu|processor:p32|self_out[12]  ;
 ; NPU:npu|processor:p32|self_value[11]       ; Merged with NPU:npu|processor:p32|self_out[11]  ;
@@ -421,8 +449,6 @@ Encoding Type:  One-Hot
 ; NPU:npu|processor:p32|self_value[2]        ; Merged with NPU:npu|processor:p32|self_out[2]   ;
 ; NPU:npu|processor:p32|self_value[1]        ; Merged with NPU:npu|processor:p32|self_out[1]   ;
 ; NPU:npu|processor:p22|self_out[0]          ; Merged with NPU:npu|processor:p22|self_value[0] ;
-; NPU:npu|processor:p22|self_value[15]       ; Merged with NPU:npu|processor:p22|self_out[15]  ;
-; NPU:npu|processor:p22|self_value[14]       ; Merged with NPU:npu|processor:p22|self_out[14]  ;
 ; NPU:npu|processor:p22|self_value[13]       ; Merged with NPU:npu|processor:p22|self_out[13]  ;
 ; NPU:npu|processor:p22|self_value[12]       ; Merged with NPU:npu|processor:p22|self_out[12]  ;
 ; NPU:npu|processor:p22|self_value[11]       ; Merged with NPU:npu|processor:p22|self_out[11]  ;
@@ -437,8 +463,6 @@ Encoding Type:  One-Hot
 ; NPU:npu|processor:p22|self_value[2]        ; Merged with NPU:npu|processor:p22|self_out[2]   ;
 ; NPU:npu|processor:p22|self_value[1]        ; Merged with NPU:npu|processor:p22|self_out[1]   ;
 ; NPU:npu|processor:p12|self_out[0]          ; Merged with NPU:npu|processor:p12|self_value[0] ;
-; NPU:npu|processor:p12|self_value[15]       ; Merged with NPU:npu|processor:p12|self_out[15]  ;
-; NPU:npu|processor:p12|self_value[14]       ; Merged with NPU:npu|processor:p12|self_out[14]  ;
 ; NPU:npu|processor:p12|self_value[13]       ; Merged with NPU:npu|processor:p12|self_out[13]  ;
 ; NPU:npu|processor:p12|self_value[12]       ; Merged with NPU:npu|processor:p12|self_out[12]  ;
 ; NPU:npu|processor:p12|self_value[11]       ; Merged with NPU:npu|processor:p12|self_out[11]  ;
@@ -453,8 +477,6 @@ Encoding Type:  One-Hot
 ; NPU:npu|processor:p12|self_value[2]        ; Merged with NPU:npu|processor:p12|self_out[2]   ;
 ; NPU:npu|processor:p12|self_value[1]        ; Merged with NPU:npu|processor:p12|self_out[1]   ;
 ; NPU:npu|processor:p02|self_out[0]          ; Merged with NPU:npu|processor:p02|self_value[0] ;
-; NPU:npu|processor:p02|self_value[15]       ; Merged with NPU:npu|processor:p02|self_out[15]  ;
-; NPU:npu|processor:p02|self_value[14]       ; Merged with NPU:npu|processor:p02|self_out[14]  ;
 ; NPU:npu|processor:p02|self_value[13]       ; Merged with NPU:npu|processor:p02|self_out[13]  ;
 ; NPU:npu|processor:p02|self_value[12]       ; Merged with NPU:npu|processor:p02|self_out[12]  ;
 ; NPU:npu|processor:p02|self_value[11]       ; Merged with NPU:npu|processor:p02|self_out[11]  ;
@@ -469,7 +491,6 @@ Encoding Type:  One-Hot
 ; NPU:npu|processor:p02|self_value[2]        ; Merged with NPU:npu|processor:p02|self_out[2]   ;
 ; NPU:npu|processor:p02|self_value[1]        ; Merged with NPU:npu|processor:p02|self_out[1]   ;
 ; NPU:npu|processor:p31|self_out[0]          ; Merged with NPU:npu|processor:p31|self_value[0] ;
-; NPU:npu|processor:p31|self_value[15]       ; Merged with NPU:npu|processor:p31|self_out[15]  ;
 ; NPU:npu|processor:p31|self_value[14]       ; Merged with NPU:npu|processor:p31|self_out[14]  ;
 ; NPU:npu|processor:p31|self_value[13]       ; Merged with NPU:npu|processor:p31|self_out[13]  ;
 ; NPU:npu|processor:p31|self_value[12]       ; Merged with NPU:npu|processor:p31|self_out[12]  ;
@@ -485,7 +506,6 @@ Encoding Type:  One-Hot
 ; NPU:npu|processor:p31|self_value[2]        ; Merged with NPU:npu|processor:p31|self_out[2]   ;
 ; NPU:npu|processor:p31|self_value[1]        ; Merged with NPU:npu|processor:p31|self_out[1]   ;
 ; NPU:npu|processor:p21|self_out[0]          ; Merged with NPU:npu|processor:p21|self_value[0] ;
-; NPU:npu|processor:p21|self_value[15]       ; Merged with NPU:npu|processor:p21|self_out[15]  ;
 ; NPU:npu|processor:p21|self_value[14]       ; Merged with NPU:npu|processor:p21|self_out[14]  ;
 ; NPU:npu|processor:p21|self_value[13]       ; Merged with NPU:npu|processor:p21|self_out[13]  ;
 ; NPU:npu|processor:p21|self_value[12]       ; Merged with NPU:npu|processor:p21|self_out[12]  ;
@@ -501,7 +521,6 @@ Encoding Type:  One-Hot
 ; NPU:npu|processor:p21|self_value[2]        ; Merged with NPU:npu|processor:p21|self_out[2]   ;
 ; NPU:npu|processor:p21|self_value[1]        ; Merged with NPU:npu|processor:p21|self_out[1]   ;
 ; NPU:npu|processor:p11|self_out[0]          ; Merged with NPU:npu|processor:p11|self_value[0] ;
-; NPU:npu|processor:p11|self_value[15]       ; Merged with NPU:npu|processor:p11|self_out[15]  ;
 ; NPU:npu|processor:p11|self_value[14]       ; Merged with NPU:npu|processor:p11|self_out[14]  ;
 ; NPU:npu|processor:p11|self_value[13]       ; Merged with NPU:npu|processor:p11|self_out[13]  ;
 ; NPU:npu|processor:p11|self_value[12]       ; Merged with NPU:npu|processor:p11|self_out[12]  ;
@@ -517,7 +536,6 @@ Encoding Type:  One-Hot
 ; NPU:npu|processor:p11|self_value[2]        ; Merged with NPU:npu|processor:p11|self_out[2]   ;
 ; NPU:npu|processor:p11|self_value[1]        ; Merged with NPU:npu|processor:p11|self_out[1]   ;
 ; NPU:npu|processor:p01|self_out[0]          ; Merged with NPU:npu|processor:p01|self_value[0] ;
-; NPU:npu|processor:p01|self_value[15]       ; Merged with NPU:npu|processor:p01|self_out[15]  ;
 ; NPU:npu|processor:p01|self_value[14]       ; Merged with NPU:npu|processor:p01|self_out[14]  ;
 ; NPU:npu|processor:p01|self_value[13]       ; Merged with NPU:npu|processor:p01|self_out[13]  ;
 ; NPU:npu|processor:p01|self_value[12]       ; Merged with NPU:npu|processor:p01|self_out[12]  ;
@@ -599,8 +617,30 @@ Encoding Type:  One-Hot
 ; UART:uart|UART_rs232_rx:I_RS232RX|State~5  ; Lost fanout                                     ;
 ; UART:uart|UART_rs232_tx:I_RS232TX|Bit[3,4] ; Stuck at GND due to stuck port data_in          ;
 ; UART:uart|UART_rs232_rx:I_RS232RX|Bit[4]   ; Stuck at GND due to stuck port data_in          ;
-; Total Number of Removed Registers = 196    ;                                                 ;
+; Total Number of Removed Registers = 216    ;                                                 ;
 +--------------------------------------------+-------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                            ;
++--------------------------------------+---------------------------+---------------------------------------------------------------------+
+; Register name                        ; Reason for Removal        ; Registers Removed due to This Register                              ;
++--------------------------------------+---------------------------+---------------------------------------------------------------------+
+; NPU:npu|processor:p03|sum_out[1]     ; Stuck at GND              ; NPU:npu|processor:p13|sum_out[1], NPU:npu|processor:p23|sum_out[1], ;
+;                                      ; due to stuck port data_in ; NPU:npu|processor:p33|sum_out[1]                                    ;
+; NPU:npu|processor:p03|sum_out[0]     ; Stuck at GND              ; NPU:npu|processor:p13|sum_out[0], NPU:npu|processor:p23|sum_out[0], ;
+;                                      ; due to stuck port data_in ; NPU:npu|processor:p33|sum_out[0]                                    ;
+; NPU:npu|processor:p01|sum_out[0]     ; Stuck at GND              ; NPU:npu|processor:p11|sum_out[0], NPU:npu|processor:p21|sum_out[0], ;
+;                                      ; due to stuck port data_in ; NPU:npu|processor:p31|sum_out[0]                                    ;
+; NPU:npu|processor:p03|self_value[15] ; Lost Fanouts              ; NPU:npu|processor:p02|self_out[15]                                  ;
+; NPU:npu|processor:p03|self_value[14] ; Lost Fanouts              ; NPU:npu|processor:p02|self_out[14]                                  ;
+; NPU:npu|processor:p33|self_value[15] ; Lost Fanouts              ; NPU:npu|processor:p32|self_out[15]                                  ;
+; NPU:npu|processor:p33|self_value[14] ; Lost Fanouts              ; NPU:npu|processor:p32|self_out[14]                                  ;
+; NPU:npu|processor:p23|self_value[15] ; Lost Fanouts              ; NPU:npu|processor:p22|self_out[15]                                  ;
+; NPU:npu|processor:p23|self_value[14] ; Lost Fanouts              ; NPU:npu|processor:p22|self_out[14]                                  ;
+; NPU:npu|processor:p13|self_value[15] ; Lost Fanouts              ; NPU:npu|processor:p12|self_out[15]                                  ;
+; NPU:npu|processor:p13|self_value[14] ; Lost Fanouts              ; NPU:npu|processor:p12|self_out[14]                                  ;
++--------------------------------------+---------------------------+---------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -608,12 +648,12 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 694   ;
+; Total registers                              ; 674   ;
 ; Number of registers using Synchronous Clear  ; 17    ;
 ; Number of registers using Synchronous Load   ; 1     ;
-; Number of registers using Asynchronous Clear ; 649   ;
+; Number of registers using Asynchronous Clear ; 629   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 392   ;
+; Number of registers using Clock Enable       ; 384   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -1049,7 +1089,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------+
 ; Parameter Name ; Value ; Type                                      ;
 +----------------+-------+-------------------------------------------+
-; WEIGHT         ; 1     ; Signed Integer                            ;
+; WEIGHT         ; 2     ; Signed Integer                            ;
 +----------------+-------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1059,7 +1099,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------+
 ; Parameter Name ; Value ; Type                                      ;
 +----------------+-------+-------------------------------------------+
-; WEIGHT         ; 1     ; Signed Integer                            ;
+; WEIGHT         ; 2     ; Signed Integer                            ;
 +----------------+-------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1069,7 +1109,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------+
 ; Parameter Name ; Value ; Type                                      ;
 +----------------+-------+-------------------------------------------+
-; WEIGHT         ; 1     ; Signed Integer                            ;
+; WEIGHT         ; 2     ; Signed Integer                            ;
 +----------------+-------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1079,7 +1119,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------+
 ; Parameter Name ; Value ; Type                                      ;
 +----------------+-------+-------------------------------------------+
-; WEIGHT         ; 1     ; Signed Integer                            ;
+; WEIGHT         ; 2     ; Signed Integer                            ;
 +----------------+-------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1089,7 +1129,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------+
 ; Parameter Name ; Value ; Type                                      ;
 +----------------+-------+-------------------------------------------+
-; WEIGHT         ; 1     ; Signed Integer                            ;
+; WEIGHT         ; 3     ; Signed Integer                            ;
 +----------------+-------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1099,7 +1139,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------+
 ; Parameter Name ; Value ; Type                                      ;
 +----------------+-------+-------------------------------------------+
-; WEIGHT         ; 1     ; Signed Integer                            ;
+; WEIGHT         ; 3     ; Signed Integer                            ;
 +----------------+-------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1109,7 +1149,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------+
 ; Parameter Name ; Value ; Type                                      ;
 +----------------+-------+-------------------------------------------+
-; WEIGHT         ; 1     ; Signed Integer                            ;
+; WEIGHT         ; 3     ; Signed Integer                            ;
 +----------------+-------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1119,7 +1159,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------+
 ; Parameter Name ; Value ; Type                                      ;
 +----------------+-------+-------------------------------------------+
-; WEIGHT         ; 1     ; Signed Integer                            ;
+; WEIGHT         ; 3     ; Signed Integer                            ;
 +----------------+-------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1129,7 +1169,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------+
 ; Parameter Name ; Value ; Type                                      ;
 +----------------+-------+-------------------------------------------+
-; WEIGHT         ; 1     ; Signed Integer                            ;
+; WEIGHT         ; 4     ; Signed Integer                            ;
 +----------------+-------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1139,7 +1179,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------+
 ; Parameter Name ; Value ; Type                                      ;
 +----------------+-------+-------------------------------------------+
-; WEIGHT         ; 1     ; Signed Integer                            ;
+; WEIGHT         ; 4     ; Signed Integer                            ;
 +----------------+-------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1149,7 +1189,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------+
 ; Parameter Name ; Value ; Type                                      ;
 +----------------+-------+-------------------------------------------+
-; WEIGHT         ; 1     ; Signed Integer                            ;
+; WEIGHT         ; 4     ; Signed Integer                            ;
 +----------------+-------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1159,7 +1199,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------+
 ; Parameter Name ; Value ; Type                                      ;
 +----------------+-------+-------------------------------------------+
-; WEIGHT         ; 1     ; Signed Integer                            ;
+; WEIGHT         ; 4     ; Signed Integer                            ;
 +----------------+-------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1624,32 +1664,36 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 694                         ;
-;     CLR               ; 268                         ;
+; arriav_ff             ; 674                         ;
+;     CLR               ; 256                         ;
 ;     CLR SCLR          ; 15                          ;
 ;     CLR SLD           ; 1                           ;
 ;     ENA               ; 27                          ;
-;     ENA CLR           ; 365                         ;
+;     ENA CLR           ; 357                         ;
 ;     SCLR              ; 2                           ;
 ;     plain             ; 16                          ;
-; arriav_lcell_comb     ; 473                         ;
-;     arith             ; 301                         ;
+; arriav_lcell_comb     ; 480                         ;
+;     arith             ; 259                         ;
 ;         1 data inputs ; 106                         ;
-;         2 data inputs ; 195                         ;
+;         2 data inputs ; 153                         ;
 ;     extend            ; 3                           ;
 ;         7 data inputs ; 3                           ;
-;     normal            ; 169                         ;
+;     normal            ; 170                         ;
+;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 9                           ;
 ;         2 data inputs ; 8                           ;
 ;         3 data inputs ; 24                          ;
 ;         4 data inputs ; 47                          ;
 ;         5 data inputs ; 25                          ;
 ;         6 data inputs ; 56                          ;
+;     shared            ; 48                          ;
+;         2 data inputs ; 3                           ;
+;         3 data inputs ; 45                          ;
 ; boundary_port         ; 50                          ;
 ; stratixv_ram_block    ; 128                         ;
 ;                       ;                             ;
 ; Max LUT depth         ; 4.00                        ;
-; Average LUT depth     ; 1.92                        ;
+; Average LUT depth     ; 1.91                        ;
 +-----------------------+-----------------------------+
 
 
@@ -1658,7 +1702,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:03     ;
 +----------------+--------------+
 
 
@@ -1668,7 +1712,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Mon Jun 16 01:29:45 2025
+    Info: Processing started: Mon Jun 16 19:10:22 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off NPU_MATRIX -c NPU_MATRIX
 Info (20032): Parallel compilation is enabled and will use up to 16 processors
 Info (12021): Found 1 design units, including 1 entities, in source file processor.sv
@@ -1743,12 +1787,18 @@ Info (12128): Elaborating entity "counter" for hierarchy "NPU:npu|counter:counte
 Warning (10230): Verilog HDL assignment warning at counter.sv(15): truncated value with size 32 to match size of target (4) File: C:/Users/hp/Documents/NPU_MATRIX/counter.sv Line: 15
 Info (12128): Elaborating entity "processor" for hierarchy "NPU:npu|processor:p00" File: C:/Users/hp/Documents/NPU_MATRIX/NPU.sv Line: 51
 Warning (10230): Verilog HDL assignment warning at processor.sv(21): truncated value with size 32 to match size of target (16) File: C:/Users/hp/Documents/NPU_MATRIX/processor.sv Line: 21
+Info (12128): Elaborating entity "processor" for hierarchy "NPU:npu|processor:p01" File: C:/Users/hp/Documents/NPU_MATRIX/NPU.sv Line: 93
+Warning (10230): Verilog HDL assignment warning at processor.sv(21): truncated value with size 32 to match size of target (16) File: C:/Users/hp/Documents/NPU_MATRIX/processor.sv Line: 21
+Info (12128): Elaborating entity "processor" for hierarchy "NPU:npu|processor:p02" File: C:/Users/hp/Documents/NPU_MATRIX/NPU.sv Line: 135
+Warning (10230): Verilog HDL assignment warning at processor.sv(21): truncated value with size 32 to match size of target (16) File: C:/Users/hp/Documents/NPU_MATRIX/processor.sv Line: 21
+Info (12128): Elaborating entity "processor" for hierarchy "NPU:npu|processor:p03" File: C:/Users/hp/Documents/NPU_MATRIX/NPU.sv Line: 177
+Warning (10230): Verilog HDL assignment warning at processor.sv(21): truncated value with size 32 to match size of target (16) File: C:/Users/hp/Documents/NPU_MATRIX/processor.sv Line: 21
 Info (12128): Elaborating entity "bytesCounterRX" for hierarchy "bytesCounterRX:address_out" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 97
 Info (12128): Elaborating entity "Memory_Out" for hierarchy "Memory_Out:mem_out" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 106
 Info (12128): Elaborating entity "sevenSeg" for hierarchy "sevenSeg:display0" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 126
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 1 registers lost all their fanouts during netlist optimizations.
+Info (17049): 21 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file C:/Users/hp/Documents/NPU_MATRIX/output_files/NPU_MATRIX.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -1762,16 +1812,16 @@ Warning (21074): Design contains 9 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "addresstest[5]" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 6
     Warning (15610): No output dependent on input pin "addresstest[6]" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 6
     Warning (15610): No output dependent on input pin "addresstest[7]" File: C:/Users/hp/Documents/NPU_MATRIX/TOP.sv Line: 6
-Info (21057): Implemented 999 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 980 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 12 input pins
     Info (21059): Implemented 38 output pins
-    Info (21061): Implemented 821 logic cells
+    Info (21061): Implemented 802 logic cells
     Info (21064): Implemented 128 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 22 warnings
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 25 warnings
     Info: Peak virtual memory: 4951 megabytes
-    Info: Processing ended: Mon Jun 16 01:30:07 2025
-    Info: Elapsed time: 00:00:22
-    Info: Total CPU time (on all processors): 00:00:48
+    Info: Processing ended: Mon Jun 16 19:10:47 2025
+    Info: Elapsed time: 00:00:25
+    Info: Total CPU time (on all processors): 00:00:51
 
 
 +------------------------------------------+

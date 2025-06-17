@@ -1,5 +1,5 @@
 Flow report for NPU_MATRIX
-Mon Jun 16 01:33:00 2025
+Mon Jun 16 19:13:59 2025
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -41,15 +41,15 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +---------------------------------+------------------------------------------------+
-; Flow Status                     ; Successful - Mon Jun 16 01:33:00 2025          ;
+; Flow Status                     ; Successful - Mon Jun 16 19:13:59 2025          ;
 ; Quartus Prime Version           ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                   ; NPU_MATRIX                                     ;
 ; Top-level Entity Name           ; TOP                                            ;
 ; Family                          ; Cyclone V                                      ;
 ; Device                          ; 5CSEMA5F31C6                                   ;
 ; Timing Models                   ; Final                                          ;
-; Logic utilization (in ALMs)     ; 297 / 32,070 ( < 1 % )                         ;
-; Total registers                 ; 664                                            ;
+; Logic utilization (in ALMs)     ; 303 / 32,070 ( < 1 % )                         ;
+; Total registers                 ; 640                                            ;
 ; Total pins                      ; 50 / 457 ( 11 % )                              ;
 ; Total virtual pins              ; 0                                              ;
 ; Total block memory bits         ; 1,048,576 / 4,065,280 ( 26 % )                 ;
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/16/2025 01:29:46 ;
+; Start date & time ; 06/16/2025 19:10:23 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; NPU_MATRIX          ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 1095834457148.175005898525096          ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 1095834457148.175012262307428          ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_NPU         ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_NPU                                 ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
@@ -109,12 +109,12 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:21     ; 1.0                     ; 4951 MB             ; 00:00:47                           ;
-; Fitter               ; 00:02:10     ; 1.2                     ; 8076 MB             ; 00:09:21                           ;
-; Assembler            ; 00:00:16     ; 1.0                     ; 5253 MB             ; 00:00:15                           ;
+; Analysis & Synthesis ; 00:00:24     ; 1.0                     ; 4951 MB             ; 00:00:50                           ;
+; Fitter               ; 00:02:28     ; 1.2                     ; 8076 MB             ; 00:10:12                           ;
+; Assembler            ; 00:00:17     ; 1.0                     ; 5253 MB             ; 00:00:16                           ;
 ; Timing Analyzer      ; 00:00:15     ; 2.5                     ; 5451 MB             ; 00:00:25                           ;
 ; EDA Netlist Writer   ; 00:00:03     ; 1.0                     ; 4775 MB             ; 00:00:02                           ;
-; Total                ; 00:03:05     ; --                      ; --                  ; 00:10:50                           ;
+; Total                ; 00:03:27     ; --                      ; --                  ; 00:11:45                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -1,5 +1,5 @@
 Timing Analyzer report for NPU_MATRIX
-Mon Jun 16 01:32:55 2025
+Mon Jun 16 19:13:54 2025
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -102,26 +102,26 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 16          ;
 ; Maximum allowed            ; 16          ;
 ;                            ;             ;
-; Average used               ; 2.49        ;
+; Average used               ; 2.53        ;
 ; Maximum used               ; 16          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;  12.7%      ;
-;     Processor 3            ;  12.6%      ;
-;     Processor 4            ;  11.9%      ;
-;     Processor 5            ;   9.8%      ;
-;     Processor 6            ;   9.8%      ;
-;     Processor 7            ;   9.8%      ;
-;     Processor 8            ;   9.7%      ;
-;     Processor 9            ;   9.1%      ;
-;     Processor 10           ;   9.1%      ;
-;     Processor 11           ;   9.1%      ;
-;     Processor 12           ;   9.1%      ;
-;     Processor 13           ;   9.1%      ;
-;     Processor 14           ;   9.1%      ;
-;     Processor 15           ;   9.1%      ;
-;     Processor 16           ;   9.1%      ;
+;     Processor 2            ;  13.2%      ;
+;     Processor 3            ;  12.8%      ;
+;     Processor 4            ;  12.2%      ;
+;     Processor 5            ;   9.7%      ;
+;     Processor 6            ;   9.7%      ;
+;     Processor 7            ;   9.6%      ;
+;     Processor 8            ;   9.6%      ;
+;     Processor 9            ;   9.6%      ;
+;     Processor 10           ;   9.6%      ;
+;     Processor 11           ;   9.6%      ;
+;     Processor 12           ;   9.5%      ;
+;     Processor 13           ;   9.5%      ;
+;     Processor 14           ;   9.4%      ;
+;     Processor 15           ;   9.4%      ;
+;     Processor 16           ;   9.4%      ;
 +----------------------------+-------------+
 
 
@@ -140,8 +140,8 @@ https://fpgasoftware.intel.com/eula.
 +------------+-----------------+------------------------------------------------------------+------+
 ; Fmax       ; Restricted Fmax ; Clock Name                                                 ; Note ;
 +------------+-----------------+------------------------------------------------------------+------+
-; 120.6 MHz  ; 120.6 MHz       ; clk                                                        ;      ;
-; 256.48 MHz ; 256.48 MHz      ; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ;      ;
+; 125.58 MHz ; 125.58 MHz      ; clk                                                        ;      ;
+; 302.39 MHz ; 302.39 MHz      ; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ;      ;
 +------------+-----------------+------------------------------------------------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -157,8 +157,8 @@ HTML report is unavailable in plain text report export.
 +------------------------------------------------------------+--------+---------------+
 ; Clock                                                      ; Slack  ; End Point TNS ;
 +------------------------------------------------------------+--------+---------------+
-; clk                                                        ; -7.292 ; -10808.065    ;
-; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; -6.209 ; -138.882      ;
+; clk                                                        ; -6.963 ; -10976.083    ;
+; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; -6.276 ; -130.347      ;
 +------------------------------------------------------------+--------+---------------+
 
 
@@ -167,8 +167,8 @@ HTML report is unavailable in plain text report export.
 +------------------------------------------------------------+-------+---------------+
 ; Clock                                                      ; Slack ; End Point TNS ;
 +------------------------------------------------------------+-------+---------------+
-; clk                                                        ; 0.275 ; 0.000         ;
-; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; 0.775 ; 0.000         ;
+; clk                                                        ; 0.285 ; 0.000         ;
+; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; 0.514 ; 0.000         ;
 +------------------------------------------------------------+-------+---------------+
 
 
@@ -177,7 +177,7 @@ HTML report is unavailable in plain text report export.
 +-------+--------+-----------------------+
 ; Clock ; Slack  ; End Point TNS         ;
 +-------+--------+-----------------------+
-; clk   ; -0.630 ; -4.396                ;
+; clk   ; -0.653 ; -4.554                ;
 +-------+--------+-----------------------+
 
 
@@ -186,7 +186,7 @@ HTML report is unavailable in plain text report export.
 +-------+-------+-----------------------+
 ; Clock ; Slack ; End Point TNS         ;
 +-------+-------+-----------------------+
-; clk   ; 0.788 ; 0.000                 ;
+; clk   ; 0.784 ; 0.000                 ;
 +-------+-------+-----------------------+
 
 
@@ -195,8 +195,8 @@ HTML report is unavailable in plain text report export.
 +------------------------------------------------------------+--------+---------------+
 ; Clock                                                      ; Slack  ; End Point TNS ;
 +------------------------------------------------------------+--------+---------------+
-; clk                                                        ; -2.174 ; -13016.626    ;
-; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; -0.447 ; -25.614       ;
+; clk                                                        ; -2.174 ; -13004.381    ;
+; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; -0.394 ; -23.618       ;
 +------------------------------------------------------------+--------+---------------+
 
 
@@ -211,8 +211,8 @@ No synchronizer chains to report.
 +------------+-----------------+------------------------------------------------------------+------+
 ; Fmax       ; Restricted Fmax ; Clock Name                                                 ; Note ;
 +------------+-----------------+------------------------------------------------------------+------+
-; 123.59 MHz ; 123.59 MHz      ; clk                                                        ;      ;
-; 268.67 MHz ; 268.67 MHz      ; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ;      ;
+; 129.35 MHz ; 129.35 MHz      ; clk                                                        ;      ;
+; 305.34 MHz ; 305.34 MHz      ; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ;      ;
 +------------+-----------------+------------------------------------------------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -222,8 +222,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +------------------------------------------------------------+--------+---------------+
 ; Clock                                                      ; Slack  ; End Point TNS ;
 +------------------------------------------------------------+--------+---------------+
-; clk                                                        ; -7.091 ; -10244.492    ;
-; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; -6.475 ; -142.904      ;
+; clk                                                        ; -6.731 ; -10382.355    ;
+; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; -6.510 ; -136.017      ;
 +------------------------------------------------------------+--------+---------------+
 
 
@@ -232,8 +232,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +------------------------------------------------------------+-------+---------------+
 ; Clock                                                      ; Slack ; End Point TNS ;
 +------------------------------------------------------------+-------+---------------+
-; clk                                                        ; 0.134 ; 0.000         ;
-; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; 0.759 ; 0.000         ;
+; clk                                                        ; 0.256 ; 0.000         ;
+; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; 0.487 ; 0.000         ;
 +------------------------------------------------------------+-------+---------------+
 
 
@@ -242,7 +242,7 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +-------+--------+----------------------+
 ; Clock ; Slack  ; End Point TNS        ;
 +-------+--------+----------------------+
-; clk   ; -0.623 ; -4.344               ;
+; clk   ; -0.648 ; -4.517               ;
 +-------+--------+----------------------+
 
 
@@ -251,7 +251,7 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +-------+-------+----------------------+
 ; Clock ; Slack ; End Point TNS        ;
 +-------+-------+----------------------+
-; clk   ; 0.733 ; 0.000                ;
+; clk   ; 0.728 ; 0.000                ;
 +-------+-------+----------------------+
 
 
@@ -260,8 +260,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +------------------------------------------------------------+--------+---------------+
 ; Clock                                                      ; Slack  ; End Point TNS ;
 +------------------------------------------------------------+--------+---------------+
-; clk                                                        ; -2.174 ; -13015.235    ;
-; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; -0.447 ; -25.776       ;
+; clk                                                        ; -2.174 ; -13002.770    ;
+; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; -0.394 ; -24.620       ;
 +------------------------------------------------------------+--------+---------------+
 
 
@@ -276,8 +276,8 @@ No synchronizer chains to report.
 +------------------------------------------------------------+--------+---------------+
 ; Clock                                                      ; Slack  ; End Point TNS ;
 +------------------------------------------------------------+--------+---------------+
-; clk                                                        ; -4.477 ; -5178.328     ;
-; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; -3.515 ; -75.910       ;
+; clk                                                        ; -4.230 ; -5264.477     ;
+; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; -3.653 ; -70.381       ;
 +------------------------------------------------------------+--------+---------------+
 
 
@@ -286,8 +286,8 @@ No synchronizer chains to report.
 +------------------------------------------------------------+-------+---------------+
 ; Clock                                                      ; Slack ; End Point TNS ;
 +------------------------------------------------------------+-------+---------------+
-; clk                                                        ; 0.163 ; 0.000         ;
-; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; 0.394 ; 0.000         ;
+; clk                                                        ; 0.159 ; 0.000         ;
+; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; 0.226 ; 0.000         ;
 +------------------------------------------------------------+-------+---------------+
 
 
@@ -296,7 +296,7 @@ No synchronizer chains to report.
 +-------+-------+------------------------+
 ; Clock ; Slack ; End Point TNS          ;
 +-------+-------+------------------------+
-; clk   ; 0.070 ; 0.000                  ;
+; clk   ; 0.067 ; 0.000                  ;
 +-------+-------+------------------------+
 
 
@@ -305,7 +305,7 @@ No synchronizer chains to report.
 +-------+-------+-----------------------+
 ; Clock ; Slack ; End Point TNS         ;
 +-------+-------+-----------------------+
-; clk   ; 0.445 ; 0.000                 ;
+; clk   ; 0.442 ; 0.000                 ;
 +-------+-------+-----------------------+
 
 
@@ -314,8 +314,8 @@ No synchronizer chains to report.
 +------------------------------------------------------------+--------+---------------+
 ; Clock                                                      ; Slack  ; End Point TNS ;
 +------------------------------------------------------------+--------+---------------+
-; clk                                                        ; -2.174 ; -12694.357    ;
-; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; -0.167 ; -1.772        ;
+; clk                                                        ; -2.174 ; -12693.414    ;
+; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; -0.094 ; -1.437        ;
 +------------------------------------------------------------+--------+---------------+
 
 
@@ -330,8 +330,8 @@ No synchronizer chains to report.
 +------------------------------------------------------------+--------+---------------+
 ; Clock                                                      ; Slack  ; End Point TNS ;
 +------------------------------------------------------------+--------+---------------+
-; clk                                                        ; -3.857 ; -4132.227     ;
-; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; -3.431 ; -74.525       ;
+; clk                                                        ; -3.656 ; -4227.659     ;
+; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; -3.550 ; -70.018       ;
 +------------------------------------------------------------+--------+---------------+
 
 
@@ -340,8 +340,8 @@ No synchronizer chains to report.
 +------------------------------------------------------------+-------+---------------+
 ; Clock                                                      ; Slack ; End Point TNS ;
 +------------------------------------------------------------+-------+---------------+
-; clk                                                        ; 0.151 ; 0.000         ;
-; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; 0.349 ; 0.000         ;
+; clk                                                        ; 0.143 ; 0.000         ;
+; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; 0.193 ; 0.000         ;
 +------------------------------------------------------------+-------+---------------+
 
 
@@ -350,7 +350,7 @@ No synchronizer chains to report.
 +-------+-------+-----------------------+
 ; Clock ; Slack ; End Point TNS         ;
 +-------+-------+-----------------------+
-; clk   ; 0.124 ; 0.000                 ;
+; clk   ; 0.123 ; 0.000                 ;
 +-------+-------+-----------------------+
 
 
@@ -359,7 +359,7 @@ No synchronizer chains to report.
 +-------+-------+----------------------+
 ; Clock ; Slack ; End Point TNS        ;
 +-------+-------+----------------------+
-; clk   ; 0.401 ; 0.000                ;
+; clk   ; 0.399 ; 0.000                ;
 +-------+-------+----------------------+
 
 
@@ -368,8 +368,8 @@ No synchronizer chains to report.
 +------------------------------------------------------------+--------+---------------+
 ; Clock                                                      ; Slack  ; End Point TNS ;
 +------------------------------------------------------------+--------+---------------+
-; clk                                                        ; -2.174 ; -12700.614    ;
-; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; -0.115 ; -1.167        ;
+; clk                                                        ; -2.174 ; -12699.738    ;
+; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; -0.061 ; -0.880        ;
 +------------------------------------------------------------+--------+---------------+
 
 
@@ -384,12 +384,12 @@ No synchronizer chains to report.
 +-------------------------------------------------------------+------------+-------+----------+---------+---------------------+
 ; Clock                                                       ; Setup      ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
 +-------------------------------------------------------------+------------+-------+----------+---------+---------------------+
-; Worst-case Slack                                            ; -7.292     ; 0.134 ; -0.630   ; 0.401   ; -2.174              ;
-;  UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; -6.475     ; 0.349 ; N/A      ; N/A     ; -0.447              ;
-;  clk                                                        ; -7.292     ; 0.134 ; -0.630   ; 0.401   ; -2.174              ;
-; Design-wide TNS                                             ; -10946.947 ; 0.0   ; -4.396   ; 0.0     ; -13042.24           ;
-;  UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; -142.904   ; 0.000 ; N/A      ; N/A     ; -25.776             ;
-;  clk                                                        ; -10808.065 ; 0.000 ; -4.396   ; 0.000   ; -13016.626          ;
+; Worst-case Slack                                            ; -6.963     ; 0.143 ; -0.653   ; 0.399   ; -2.174              ;
+;  UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; -6.510     ; 0.193 ; N/A      ; N/A     ; -0.394              ;
+;  clk                                                        ; -6.963     ; 0.143 ; -0.653   ; 0.399   ; -2.174              ;
+; Design-wide TNS                                             ; -11106.43  ; 0.0   ; -4.554   ; 0.0     ; -13027.999          ;
+;  UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; -136.017   ; 0.000 ; N/A      ; N/A     ; -24.620             ;
+;  clk                                                        ; -10976.083 ; 0.000 ; -4.554   ; 0.000   ; -13004.381          ;
 +-------------------------------------------------------------+------------+-------+----------+---------+---------------------+
 
 
@@ -648,7 +648,7 @@ No synchronizer chains to report.
 +------------------------------------------------------------+------------------------------------------------------------+----------+----------+----------+----------+
 ; From Clock                                                 ; To Clock                                                   ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
 +------------------------------------------------------------+------------------------------------------------------------+----------+----------+----------+----------+
-; clk                                                        ; clk                                                        ; 48659    ; 0        ; 0        ; 0        ;
+; clk                                                        ; clk                                                        ; 49687    ; 0        ; 0        ; 0        ;
 ; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; clk                                                        ; 32       ; 108      ; 0        ; 0        ;
 ; clk                                                        ; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; 0        ; 0        ; 141      ; 0        ;
 ; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; 0        ; 0        ; 0        ; 370      ;
@@ -661,7 +661,7 @@ Entries labeled "false path" only account for clock-to-clock false paths and not
 +------------------------------------------------------------+------------------------------------------------------------+----------+----------+----------+----------+
 ; From Clock                                                 ; To Clock                                                   ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
 +------------------------------------------------------------+------------------------------------------------------------+----------+----------+----------+----------+
-; clk                                                        ; clk                                                        ; 48659    ; 0        ; 0        ; 0        ;
+; clk                                                        ; clk                                                        ; 49687    ; 0        ; 0        ; 0        ;
 ; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; clk                                                        ; 32       ; 108      ; 0        ; 0        ;
 ; clk                                                        ; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; 0        ; 0        ; 141      ; 0        ;
 ; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; 0        ; 0        ; 0        ; 370      ;
@@ -709,7 +709,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; Illegal Clocks                  ; 0     ; 0    ;
 ; Unconstrained Clocks            ; 0     ; 0    ;
 ; Unconstrained Input Ports       ; 2     ; 2    ;
-; Unconstrained Input Port Paths  ; 691   ; 691  ;
+; Unconstrained Input Port Paths  ; 667   ; 667  ;
 ; Unconstrained Output Ports      ; 38    ; 38   ;
 ; Unconstrained Output Port Paths ; 156   ; 156  ;
 +---------------------------------+-------+------+
@@ -843,7 +843,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Mon Jun 16 01:32:40 2025
+    Info: Processing started: Mon Jun 16 19:13:39 2025
 Info: Command: quartus_sta NPU_MATRIX -c NPU_MATRIX
 Info: qsta_default_script.tcl version: #1
 Info (20032): Parallel compilation is enabled and will use up to 16 processors
@@ -860,119 +860,119 @@ Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
 Info: Analyzing Slow 1100mV 85C Model
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -7.292
+Info (332146): Worst-case setup slack is -6.963
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -7.292          -10808.065 clk 
-    Info (332119):    -6.209            -138.882 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
-Info (332146): Worst-case hold slack is 0.275
+    Info (332119):    -6.963          -10976.083 clk 
+    Info (332119):    -6.276            -130.347 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
+Info (332146): Worst-case hold slack is 0.285
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.275               0.000 clk 
-    Info (332119):     0.775               0.000 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
-Info (332146): Worst-case recovery slack is -0.630
+    Info (332119):     0.285               0.000 clk 
+    Info (332119):     0.514               0.000 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
+Info (332146): Worst-case recovery slack is -0.653
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -0.630              -4.396 clk 
-Info (332146): Worst-case removal slack is 0.788
+    Info (332119):    -0.653              -4.554 clk 
+Info (332146): Worst-case removal slack is 0.784
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.788               0.000 clk 
+    Info (332119):     0.784               0.000 clk 
 Info (332146): Worst-case minimum pulse width slack is -2.174
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -2.174          -13016.626 clk 
-    Info (332119):    -0.447             -25.614 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
+    Info (332119):    -2.174          -13004.381 clk 
+    Info (332119):    -0.394             -23.618 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
 Info: Analyzing Slow 1100mV 0C Model
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -7.091
+Info (332146): Worst-case setup slack is -6.731
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -7.091          -10244.492 clk 
-    Info (332119):    -6.475            -142.904 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
-Info (332146): Worst-case hold slack is 0.134
+    Info (332119):    -6.731          -10382.355 clk 
+    Info (332119):    -6.510            -136.017 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
+Info (332146): Worst-case hold slack is 0.256
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.134               0.000 clk 
-    Info (332119):     0.759               0.000 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
-Info (332146): Worst-case recovery slack is -0.623
+    Info (332119):     0.256               0.000 clk 
+    Info (332119):     0.487               0.000 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
+Info (332146): Worst-case recovery slack is -0.648
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -0.623              -4.344 clk 
-Info (332146): Worst-case removal slack is 0.733
+    Info (332119):    -0.648              -4.517 clk 
+Info (332146): Worst-case removal slack is 0.728
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.733               0.000 clk 
+    Info (332119):     0.728               0.000 clk 
 Info (332146): Worst-case minimum pulse width slack is -2.174
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -2.174          -13015.235 clk 
-    Info (332119):    -0.447             -25.776 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
+    Info (332119):    -2.174          -13002.770 clk 
+    Info (332119):    -0.394             -24.620 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
 Info: Analyzing Fast 1100mV 85C Model
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -4.477
+Info (332146): Worst-case setup slack is -4.230
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -4.477           -5178.328 clk 
-    Info (332119):    -3.515             -75.910 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
-Info (332146): Worst-case hold slack is 0.163
+    Info (332119):    -4.230           -5264.477 clk 
+    Info (332119):    -3.653             -70.381 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
+Info (332146): Worst-case hold slack is 0.159
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.163               0.000 clk 
-    Info (332119):     0.394               0.000 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
-Info (332146): Worst-case recovery slack is 0.070
+    Info (332119):     0.159               0.000 clk 
+    Info (332119):     0.226               0.000 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
+Info (332146): Worst-case recovery slack is 0.067
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.070               0.000 clk 
-Info (332146): Worst-case removal slack is 0.445
+    Info (332119):     0.067               0.000 clk 
+Info (332146): Worst-case removal slack is 0.442
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.445               0.000 clk 
+    Info (332119):     0.442               0.000 clk 
 Info (332146): Worst-case minimum pulse width slack is -2.174
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -2.174          -12694.357 clk 
-    Info (332119):    -0.167              -1.772 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
+    Info (332119):    -2.174          -12693.414 clk 
+    Info (332119):    -0.094              -1.437 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
 Info: Analyzing Fast 1100mV 0C Model
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -3.857
+Info (332146): Worst-case setup slack is -3.656
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -3.857           -4132.227 clk 
-    Info (332119):    -3.431             -74.525 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
-Info (332146): Worst-case hold slack is 0.151
+    Info (332119):    -3.656           -4227.659 clk 
+    Info (332119):    -3.550             -70.018 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
+Info (332146): Worst-case hold slack is 0.143
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.151               0.000 clk 
-    Info (332119):     0.349               0.000 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
-Info (332146): Worst-case recovery slack is 0.124
+    Info (332119):     0.143               0.000 clk 
+    Info (332119):     0.193               0.000 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
+Info (332146): Worst-case recovery slack is 0.123
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.124               0.000 clk 
-Info (332146): Worst-case removal slack is 0.401
+    Info (332119):     0.123               0.000 clk 
+Info (332146): Worst-case removal slack is 0.399
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.401               0.000 clk 
+    Info (332119):     0.399               0.000 clk 
 Info (332146): Worst-case minimum pulse width slack is -2.174
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -2.174          -12700.614 clk 
-    Info (332119):    -0.115              -1.167 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
+    Info (332119):    -2.174          -12699.738 clk 
+    Info (332119):    -0.061              -0.880 UART:uart|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] 
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 5451 megabytes
-    Info: Processing ended: Mon Jun 16 01:32:55 2025
+    Info: Processing ended: Mon Jun 16 19:13:54 2025
     Info: Elapsed time: 00:00:15
     Info: Total CPU time (on all processors): 00:00:25
 
